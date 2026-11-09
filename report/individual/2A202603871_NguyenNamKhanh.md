@@ -62,7 +62,14 @@ Em dùng AI để phản biện các problem đã tự scan, không dùng để 
 Quy trình nháp hiện tại:
 
 ```text
+HIỆN TẠI — khoảng 12 phút/thuật ngữ khó
+Thời gian từng bước là ước lượng, chưa bấm giờ.
 
+[1. Gặp từ mới/khó hiểu: 0,5 phút]
+→ [2. Đọc hướng dẫn lab: 1,5 phút]
+→ [3. Tìm giải nghĩa: 2 phút]
+→ [4. Xác định kiến thức liên quan: 5 phút] ← BOTTLENECK
+→ [5. Đọc giải thích/định nghĩa: 3 phút]
 ```
 
 ### Problem Card #2
@@ -83,7 +90,17 @@ Quy trình nháp hiện tại:
 Quy trình nháp hiện tại:
 
 ```text
+HIỆN TẠI — khoảng 5 phút cho bước 1–4; thời gian nộp bài chưa đo
+Thời gian từng bước là ước lượng, chưa bấm giờ.
 
+[1. Tìm và đọc file: 1,5 phút]
+→ [2. Đổi tên file: 0,5 phút]
+→ [3. Điền thông tin: 1 phút]
+→ [4. Kiểm tra lại các thông tin: 2 phút]
+→ [5. Nộp bài: chưa đo]
+
+NHÓM BƯỚC NGHẼN THEO CARD: bước 1–4, khoảng 5 phút.
+Chưa xác định một bước nghẽn cụ thể trong nhóm này.
 ```
 
 ### Problem Card #3
@@ -104,7 +121,14 @@ Quy trình nháp hiện tại:
 Quy trình nháp hiện tại:
 
 ```text
+HIỆN TẠI — khoảng 40 phút/ý tưởng dự án
+Thời gian từng bước là ước lượng, chưa bấm giờ.
 
+[1. Xác định yêu cầu dự án: 4 phút]
+→ [2. Đưa ra các hướng đi ban đầu: 5 phút]
+→ [3. Tìm thêm các nguồn tham khảo, đánh giá, tổng hợp, phát triển các hướng: 20 phút] ← BOTTLENECK
+→ [4. So sánh hướng đi với yêu cầu: 6 phút]
+→ [5. Lựa chọn và phát triển: 5 phút]
 ```
 
 ### Card muốn pitch nhất
