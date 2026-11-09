@@ -55,7 +55,7 @@ Em dùng AI để phản biện các problem đã tự scan, không dùng để 
 | Bottleneck (bước nào, mất bao nhiêu phút) | 4. Xác định kiến thức liên quan |
 | Impact (nếu không giải thì sao) | Không thể tiếp tục bài lab, chậm trễ tiến độ |
 | Success metric (baseline → target) | Giảm thời gian xuống còn dưới 5 phút, có thể đạt điểm tuyệt đối khi kiểm tra thông hiểu về kiến thức|
-| Phương án không dùng AI | |
+| Phương án không dùng AI | Hỏi giảng viên, lab coach, tìm các flashcard có sẵn.|
 | Giả thuyết về AI (nếu có) | AI giải thích theo ngữ cảnh và đề xuất kiến thức nền trước |
 | Cảm nhận nhanh | Workflow |
 
@@ -80,9 +80,9 @@ Thời gian từng bước là ước lượng, chưa bấm giờ.
 | Actor | Sinh viên AI thực chiến |
 | Thời điểm / bối cảnh | Những buổi lab mỗi ngày |
 | Quy trình hiện tại (3–7 bước) | 1. Tìm và đọc file - 2. Đổi tên file - 3. Điền thông tin - 4. Kiểm tra lại các thông tin - 5. Nộp bài |
-| Bottleneck (bước nào, mất bao nhiêu phút) | 1-4, khoảng 5 phút |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2, 3, 4, khoảng 5 phút |
 | Impact (nếu không giải thì sao) | Tốn thời gian kiểm tra, sai thông tin có thể khiến bài trở nên không hợp lệ và không được chấm điểm|
-| Success metric (baseline → target) | Giảm thời gian xuống thành ngay lập tức < 1s|
+| Success metric (baseline → target) | Giảm thời gian xuống thành ~1s|
 | Phương án không dùng AI | Dùng script để điển và kiểm tra file|
 | Giả thuyết về AI (nếu có) | Đưa ra yêu cầu, phương án xử lý nếu hướng dẫn có thay đổi|
 | Cảm nhận nhanh | Rule |
