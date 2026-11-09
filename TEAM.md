@@ -67,12 +67,14 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - CP3: nhờ đối chiếu bài của Tú, Khánh và Bình với README; yêu cầu chuẩn bị demo cho hướng kiểm tra bài lab trước khi nộp.
 - CP4: chuẩn bị bảng giải pháp hiện có và các giả định cần kiểm chứng; chưa thực hiện phỏng vấn/survey ngoài nhóm.
 - CP5–CP6: chuẩn bị slide/demo HTML để thuyết trình, quy trình giả thuyết, giá trị tính năng, kế hoạch benchmark, lộ trình và bốn rủi ro. Có AI hỗ trợ; các ngưỡng đo là đề xuất, chưa có kết quả chạy.
+- CP6: bổ sung trực tiếp mục 6–8 trong báo cáo nhóm: ma trận, so sánh bốn mức, đề xuất Rule, v1, năm tiêu chí đánh giá, bốn rủi ro và đề xuất Not Yet. Bản đề xuất có AI hỗ trợ soạn; nhóm cần tự kiểm, chỉnh và chốt theo quy định.
 
 **Sản phẩm hiện có:**
 
 - [Báo cáo cá nhân — CP1, CP2, nhật ký tham gia, dùng AI và bản nháp CP7](report/individual/2A202603819_LeThanhTung.md).
 - [Memo nguồn công khai cho 5 vấn đề](report/assets/cp1-2-evidence-research.md).
 - [Ghi chú đóng góp CP3–CP6 cho hướng LabCheck](report/assets/cp3-6-le-thanh-tung-labcheck.md): cơ sở chọn hướng, research, quy trình, benchmark và rủi ro. Nội dung chuyển từ phần slide/demo đã chuẩn bị; không thay cho quyết định nhóm.
+- [Phần CP6 đề xuất trong báo cáo chung](report/team/group_report.md#6-mức-can-thiệp-ai-cp6), gồm cả v1 và quyết định tại mục 7–8.
 
 **Đóng góp vào phần nhóm và điều học được:**
 

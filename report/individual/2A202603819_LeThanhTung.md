@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — Lê Thanh Tùng — 2A202603819
 
-> Cập nhật ngày 09/11/2026: đã bổ sung đóng góp cá nhân cho hướng kiểm tra bài lab trước khi nộp, nhật ký dùng AI và bản nháp reflection. Các đề xuất benchmark chưa được chạy; chưa có dữ liệu phỏng vấn trong phần tôi phụ trách. Quyết định chung của nhóm cần đối chiếu với báo cáo nhóm.
+> Báo cáo cá nhân ngày 09/11/2026, gồm scan vấn đề, ba Problem Card, đóng góp cho hướng LabCheck và nhật ký dùng AI. Phần CP6 đã có đề xuất trong báo cáo chung. Chưa có số đo trực tiếp hoặc phỏng vấn trong phần tôi phụ trách; reflection có AI hỗ trợ, được ghi rõ tại mục 6.
 
 ## 1. Thông tin học viên
 
@@ -64,11 +64,11 @@ Quy trình nháp; số phút từng bước sẽ bổ sung sau khi đo:
 
 ```mermaid
 flowchart TD
-  A["1. Nhận tài liệu, mục tiêu và hạn<br/>__ phút — cần đo"] --> B["2. Đọc và chia nội dung<br/>__ phút — cần đo"]
-  B --> C["3. Viết câu hỏi, phương án, đáp án<br/>__ phút — cần đo<br/>BƯỚC NGHẼN GIẢ THUYẾT"]
-  C --> D["4. Gán độ khó, rà trùng ý<br/>__ phút — cần đo"]
-  D --> E["5. Kiểm căn cứ và sửa<br/>__ phút — cần đo"]
-  E --> F["6. Định dạng, duyệt, phát hành<br/>__ phút — cần đo"]
+  A["1. Nhận tài liệu, mục tiêu và hạn<br/>Chưa đo thời gian"] --> B["2. Đọc và chia nội dung<br/>Chưa đo thời gian"]
+  B --> C["3. Viết câu hỏi, phương án, đáp án<br/>Chưa đo thời gian<br/>BƯỚC NGHẼN GIẢ THUYẾT"]
+  C --> D["4. Gán độ khó, rà trùng ý<br/>Chưa đo thời gian"]
+  D --> E["5. Kiểm căn cứ và sửa<br/>Chưa đo thời gian"]
+  E --> F["6. Định dạng, duyệt, phát hành<br/>Chưa đo thời gian"]
   style C fill:#ffe4e6,stroke:#be123c
 ```
 
@@ -93,10 +93,10 @@ Quy trình nháp:
 
 ```mermaid
 flowchart TD
-  A["1. Đọc chat và tài liệu<br/>__ phút — cần đo"] --> B["2. Liệt kê việc và thông tin thiếu<br/>__ phút — cần đo"]
-  B --> C["3. Hỏi thành viên để xác nhận<br/>__ phút chủ động + W phút chờ<br/>BƯỚC NGHẼN GIẢ THUYẾT"]
-  C --> D["4. Đối chiếu, sửa bảng tiến độ<br/>__ phút — cần đo"]
-  D --> E["5. Gửi bản tổng hợp, nhận xác nhận<br/>__ phút — cần đo"]
+  A["1. Đọc chat và tài liệu<br/>Chưa đo thời gian"] --> B["2. Liệt kê việc và thông tin thiếu<br/>Chưa đo thời gian"]
+  B --> C["3. Hỏi thành viên để xác nhận<br/>Chưa đo công chủ động và thời gian chờ<br/>BƯỚC NGHẼN GIẢ THUYẾT"]
+  C --> D["4. Đối chiếu, sửa bảng tiến độ<br/>Chưa đo thời gian"]
+  D --> E["5. Gửi bản tổng hợp, nhận xác nhận<br/>Chưa đo thời gian"]
   style C fill:#ffe4e6,stroke:#be123c
 ```
 
@@ -121,10 +121,10 @@ Quy trình nháp; số phút từng bước sẽ bổ sung sau khi theo dõi m�
 
 ```mermaid
 flowchart TD
-  A["1. Nhận report<br/>__ phút — cần đo"] --> B["2. Tra thời điểm, nội quy và giờ ghi nhận<br/>__ phút — cần đo"]
-  B --> C["3. Kiểm thông tin phiên, hỏi thành viên để xác minh<br/>__ phút chủ động + W phút chờ<br/>BƯỚC NGHẼN GIẢ THUYẾT"]
-  C --> D["4. Quản trị viên quyết định<br/>__ phút — cần đo"]
-  D --> E["5. Thông báo, lưu kết quả; sửa giờ nếu có vi phạm<br/>__ phút — cần đo"]
+  A["1. Nhận report<br/>Chưa đo thời gian"] --> B["2. Tra thời điểm, nội quy và giờ ghi nhận<br/>Chưa đo thời gian"]
+  B --> C["3. Kiểm thông tin phiên, hỏi thành viên để xác minh<br/>Chưa đo công chủ động và thời gian chờ<br/>BƯỚC NGHẼN GIẢ THUYẾT"]
+  C --> D["4. Quản trị viên quyết định<br/>Chưa đo thời gian"]
+  D --> E["5. Thông báo, lưu kết quả; sửa giờ nếu có vi phạm<br/>Chưa đo thời gian"]
   style C fill:#ffe4e6,stroke:#be123c
 ```
 
@@ -136,7 +136,7 @@ Nguồn tham khảo cho nội quy chống farming và cách ghi giờ nằm ở 
 
 - Card #3 — gian lận thời gian học: tôi hiểu vấn đề này hơn và muốn trao đổi trước về cách xác minh report, công kiểm tra và sự công bằng của bảng xếp hạng.
 - Thứ tự này đang để chuẩn bị, có thể thay đổi sau khi kiểm tra dữ liệu và trao đổi với nhóm.
-- Câu hỏi muốn nhóm phản biện: _Bổ sung khi chuẩn bị pitch._
+- Câu hỏi chuẩn bị để xin phản biện, có AI hỗ trợ diễn đạt: “Thông tin nào đủ để quản trị viên xác minh một report treo máy mà không xử lý nhầm người đang học hoặc nghỉ hợp lệ?” Đây chưa phải câu hỏi đã trao đổi trực tiếp trong CP3.
 
 ### Phản biện bằng AI và điều chỉnh trong bản nháp
 
@@ -164,12 +164,12 @@ Sau phần cá nhân, tôi nhờ đối chiếu bài của Tú, Khánh và Bình
 | Chọn candidate problem | Sau khi xem các đề xuất, tôi yêu cầu làm slide demo cho vấn đề kiểm tra bài lab trước khi nộp. | Thu hẹp vào một bài lab cụ thể. Không gộp thêm theo dõi deadline, tự viết bài hay chấm điểm. |
 | Kiểm chứng / research | Nhờ tìm tài liệu chính thức về GitHub Actions, markdownlint và Gemini; chuẩn bị cách so sánh với checklist thủ công. | Có bảng research và kế hoạch đo tại [ghi chú đóng góp](../assets/cp3-6-le-thanh-tung-labcheck.md). Chưa có phỏng vấn/survey ngoài nhóm và chưa đo baseline. |
 | Quy trình nhóm | Chuẩn bị quy trình đọc yêu cầu → rà bài → sửa → tự nộp; trong demo dùng rule kiểm cấu trúc. | Làm rõ bước đối chiếu là bottleneck giả thuyết. Phần đọc hiểu chất lượng nội dung vẫn cần người kiểm; sơ đồ này chưa phải quy trình đã quan sát thực tế. |
-| Problem Statement | Dùng Job Story ở trên để định hướng demo; ghi các điểm cần làm rõ về actor, phạm vi, số đo và boundary. | Có ghi chú để nhóm tự hoàn thiện v0/v1. Chưa ghi một Problem Statement do nhóm đã thông qua. |
-| Mức can thiệp AI | Chuẩn bị phương án Rule trước; chỉ thử Workflow cho nội dung diễn đạt tự do nếu có giá trị tăng thêm. | Demo HTML hiện kiểm bằng JavaScript trong trình duyệt, chưa gọi AI. Agent chưa có lý do cần thiết trong phạm vi này. |
+| Problem Statement | Dùng Job Story ở trên để định hướng demo; chuẩn bị đề xuất v1 gồm actor, quy trình, bottleneck, impact, metric và boundary. | Đề xuất được ghi tại mục 7 báo cáo nhóm; chưa có v0 hoàn chỉnh hoặc xác nhận v1 từ nhóm. |
+| Mức can thiệp AI | So sánh bốn mức; đề xuất Rule trước và giữ checklist làm đối chứng. | Mục 6 báo cáo nhóm có lập luận lựa chọn. Demo HTML hiện kiểm bằng JavaScript trong trình duyệt, chưa gọi AI; Workflow còn cần chứng minh lợi ích tăng thêm. |
 | Đánh giá và rủi ro | Yêu cầu slide trình bày giá trị tính năng, benchmark, kế hoạch phát triển và rủi ro. | Có thiết kế bộ 40 mẫu, pilot 12 học viên, lộ trình 14 ngày và ngưỡng dừng. Đây là kế hoạch, chưa có kết quả. |
-| Quyết định | Chuẩn bị các điều kiện để cân nhắc thử nhỏ. | Chưa đủ căn cứ để khẳng định công cụ tốt hơn checklist hoặc triển khai rộng. Kết luận Go / Not Yet / No-Go cuối cùng do nhóm tự chốt. |
+| Quyết định | Đề xuất **Not Yet** cho pilot dùng bài thật và phần AI; tiếp tục chuẩn bị Rule bằng dữ liệu mẫu được phép dùng. | Mục 8 báo cáo nhóm có bốn rủi ro, điều kiện chuyển sang Go và ngưỡng dừng. Đây là đề xuất của tôi, chờ nhóm chốt. |
 
-**Tài liệu đóng góp:** [Ghi chú CP3–CP6: LabCheck](../assets/cp3-6-le-thanh-tung-labcheck.md). Nội dung này được chuyển từ phần slide/demo đã chuẩn bị, có AI hỗ trợ. Slide HTML là tài liệu thuyết trình riêng; bài lab trong repo vẫn dùng Markdown theo yêu cầu.
+**Tài liệu đóng góp:** [CP6 trong báo cáo nhóm](../team/group_report.md#6-mức-can-thiệp-ai-cp6) và [ghi chú CP3–CP6: LabCheck](../assets/cp3-6-le-thanh-tung-labcheck.md). Có AI hỗ trợ tổng hợp và soạn đề xuất; nhóm cần tự kiểm, chỉnh và chốt. Slide HTML là tài liệu thuyết trình riêng; bài lab trong repo dùng Markdown theo yêu cầu.
 
 ## 5. Dùng AI
 
@@ -184,41 +184,41 @@ Tôi đưa ra 5 mô tả ban đầu. Trong phần chuẩn bị, tôi dùng AI đ
 | CP3 — đọc chuẩn bị | Nhờ đọc bài của 3 bạn, so sánh với README và đề xuất một hướng chung. | Nhìn thấy điểm giao nhau giữa yêu cầu, rubric và quy cách nộp bài. | Nhận xét của AI không thay cho câu hỏi phản biện trực tiếp giữa thành viên. | Tôi yêu cầu làm demo cho hướng kiểm tra bài lab; không ghi các nhận xét này thành buổi pitch đã diễn ra. |
 | CP4 — research | Nhờ tìm nguồn chính thức và phương án đối chứng có sẵn. | Có căn cứ để so sánh checklist, script/rule và công cụ đọc hiểu văn bản. | Tài liệu sản phẩm không chứng minh người dùng cần LabCheck hoặc công cụ tốt hơn. | Giữ link nguồn, tách research khỏi phỏng vấn và kết quả benchmark. |
 | CP5 — quy trình / demo | Nhờ dựng slide HTML và demo rule từ Job Story tôi yêu cầu. | Có ví dụ tương tác để giải thích kiểm cấu trúc và bước người học xem lại. | Kiểm đủ tên file, số card hoặc heading chưa chứng minh nội dung đạt yêu cầu. Tôi đã yêu cầu bản demo nhanh và để kiểm thử sau. | Ghi rõ demo chưa gọi AI, chưa phải sản phẩm hoàn chỉnh và chưa có kết quả kiểm thử để báo cáo. |
-| CP5–CP6 — Problem Statement | Dùng AI rà phạm vi, metric và boundary quanh Job Story đã chọn để demo. | Chỉ ra chỗ thiếu baseline và nguy cơ kết luận “đạt” khi mới kiểm cấu trúc. | Không có căn cứ để ghi nhóm đã chốt v0/v1. | Giữ thành ghi chú để nhóm tự hoàn thiện, không tự công bố quyết định chung. |
-| CP6 — benchmark / rủi ro | Nhờ đề xuất cách đánh giá, so sánh công cụ, lộ trình và giải thích rủi ro để chuẩn bị thuyết trình. | Làm rõ việc phải tính cả thời gian đọc cảnh báo, sửa báo nhầm và lỗi còn sót. | Các ngưỡng 95%, 90%, 30% và cỡ mẫu đều là đề xuất; demo chưa xác nhận được các con số này. | Ghi “mục tiêu đề xuất”, giữ phương án Rule/checklist nếu thử nghiệm không cho thấy lợi ích. |
+| CP5–CP6 — Problem Statement | Yêu cầu AI soạn đề xuất v1 từ Job Story, kèm phạm vi, metric và boundary. | Có bản cụ thể để đối chiếu thiếu sót và thảo luận. | Đề cho phép AI phản biện, không viết thay quyết định của nhóm; bản AI soạn chưa đáp ứng yêu cầu nhóm tự viết/chốt. | Ghi đúng nguồn hỗ trợ, không trình bày đây là v1 đã được nhóm thông qua; nhóm cần tự hoàn thiện từ v0 sau CP5. |
+| CP6 — benchmark / rủi ro | Nhờ đề xuất cách đánh giá, so sánh công cụ, lộ trình và rủi ro; soạn phần 6–8 báo cáo nhóm để thảo luận. | Làm rõ việc phải tính cả thời gian đọc cảnh báo, sửa báo nhầm và lỗi còn sót. | Các ngưỡng 95%, 90%, 30% và cỡ mẫu đều là đề xuất; demo chưa xác nhận được các con số này. | Tách mức Rule hiện tại khỏi kiến trúc AI dự kiến; ghi Not Yet là đề xuất cá nhân, chờ nhóm tự chốt. |
 | CP7 — bản nháp | Tôi yêu cầu AI đọc quá trình trao đổi và soạn bản nháp mục 6. | Tập hợp các lựa chọn và điều chỉnh đã có trong quá trình chuẩn bị. | Đề bài yêu cầu reflection tự viết; bản nháp có AI hỗ trợ không được coi là bản tự viết đáp ứng yêu cầu đó. | Công khai phần hỗ trợ này; tôi cần tự viết lại bằng trải nghiệm của mình trước khi dùng làm reflection cuối cùng. |
 
-## 6. Reflection (CP7 — bản nháp có AI hỗ trợ)
+## 6. Reflection (CP7 — nội dung tham khảo có AI hỗ trợ)
 
-> Bản nháp dưới đây do AI hỗ trợ soạn theo quá trình trao đổi và bài đã có, theo yêu cầu của tôi. [RULES](../../RULES.md#2-ai-và-công-cụ) yêu cầu không dùng AI viết thay CP7; vì vậy đây là tài liệu để tôi tự viết lại, chưa phải reflection tự viết đáp ứng quy định. Chưa có ghi chép phỏng vấn hoặc phản biện trực tiếp giữa các thành viên để đưa vào phần này.
+> Nội dung dưới đây do AI hỗ trợ soạn từ báo cáo và quá trình trao đổi đã có, theo yêu cầu của tôi. Phần này chưa đáp ứng quy định tự viết CP7 tại [RULES](../../RULES.md#2-ai-và-công-cụ). Không có dữ liệu phỏng vấn hoặc câu hỏi phản biện trực tiếp giữa các thành viên được bổ sung vào đây.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Trong phần chuẩn bị này, tôi đối chiếu báo cáo của các bạn, chưa có ghi chép buổi nghe pitch. Bài của Tú có vấn đề rà rubric, Khánh có chuẩn bị file, còn Bình có xác định yêu cầu cuối cùng. Ba hướng gần nhau nhưng giải các bước khác nhau. Vì vậy, hướng demo được giới hạn vào việc rà một bài lab trước khi nộp, thay vì gom mọi khó khăn học tập vào một công cụ.
+Qua việc đối chiếu báo cáo của các bạn, tôi thấy bài Tú tập trung vào rà rubric, Khánh có khâu chuẩn bị file, còn Bình có vấn đề xác định yêu cầu cuối cùng. Ba hướng cùng liên quan đến việc nộp bài nhưng không hoàn toàn giống nhau. Điểm chung này là cơ sở để tôi yêu cầu chuẩn bị demo kiểm tra một bài lab trước khi nộp. Phần đối chiếu báo cáo này chưa thay cho việc nghe và phản biện trực tiếp trong buổi pitch.
 
 **6.2. Nhóm có lúc nào bị “solution-first” (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Tôi chưa có biên bản để kết luận cả nhóm đã xử lý tình huống này thế nào. Trong phần của tôi, tôi yêu cầu làm demo khi chưa có phỏng vấn và baseline; đây là chỗ dễ đi quá nhanh sang giải pháp. Bản demo có thể giúp giải thích ý tưởng, nhưng không chứng minh vấn đề đủ lớn hoặc cần AI. Phần kiểm chứng vẫn phải làm riêng.
+Trong phần chuẩn bị của tôi, nguy cơ này xuất hiện khi tôi yêu cầu làm slide và demo lúc chưa có phỏng vấn hay baseline. Việc có một giao diện chạy được dễ tạo cảm giác bài toán đã rõ. Vì vậy, phần trình bày cần tách kết quả demo với giả thuyết cần kiểm chứng: demo cho thấy cách kiểm cấu trúc, còn người học có thực sự tiết kiệm công hay ít bỏ sót hơn vẫn phải đo. Tôi chưa có ghi chép để khẳng định cả nhóm đã xử lý tình huống này thế nào.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Tôi đã yêu cầu thay card VPS bằng gian lận giờ học vì tôi hiểu vấn đề đó hơn. Sau khi xem hướng đề xuất từ bài của bốn người, tôi tiếp tục yêu cầu demo kiểm tra bài lab. Đây là các lần điều chỉnh trong quá trình chuẩn bị, chưa phải ví dụ tôi đổi ý vì một bạn trong nhóm phản biện. Riêng card giờ học, phản biện bằng AI giúp sửa cách xác minh: ít chuyển động trước camera chưa đủ để kết luận gian lận.
+Một điều chỉnh cụ thể là tôi thay card VPS bằng gian lận giờ học vì hiểu bối cảnh này hơn. Khi card được phản biện bằng AI, cách mô tả cũng chuyển từ nghi ngờ treo máy sang xác minh report theo nội quy, vì camera bật hoặc ít chuyển động chưa đủ để kết luận gian lận. Sau khi xem các hướng của bốn người, tôi yêu cầu demo kiểm tra bài lab để đào sâu một phạm vi chung hơn. Đây là các thay đổi đã ghi trong quá trình chuẩn bị; chưa có ví dụ đổi ý do một thành viên trực tiếp phản biện.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Chưa có kết quả phỏng vấn hoặc survey trong phần tôi chuẩn bị. Từ research, điểm cần chú ý là đã có cách kiểm định dạng bằng rule và cách chạy kiểm tra qua GitHub Actions. LabCheck phải so sánh với những phương án đó. Các số phút trong bài của ba bạn cũng thuộc những phạm vi khác nhau, nên không thể gộp thành một baseline chung.
+Research cho thấy đã có những cách làm đơn giản như checklist, script kiểm cấu trúc và markdownlint; GitHub Actions có thể chạy các kiểm tra được cấu hình. Vì thế, LabCheck cần so với cách làm sẵn có chứ không chỉ so với việc không dùng công cụ. Một điểm khác là số phút trong bài Tú, Khánh và Bình thuộc những phạm vi và mức bằng chứng khác nhau, không thể lấy trung bình làm baseline chung. Phần tôi phụ trách chưa có kết quả phỏng vấn hoặc survey để rút kết luận về nhu cầu ngoài nhóm.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-Điểm cần làm chặt nhất là phân biệt “đủ mục” với “đáp ứng yêu cầu”. Một bài có ba heading Problem Card vẫn có thể thiếu lập luận hoặc bằng chứng. Vì vậy, metric phải tính cả lỗi còn sót và tổng thời gian kiểm tra, không chỉ tốc độ công cụ. Chưa đo baseline thì tôi giữ rõ là chưa đo, không dùng mục tiêu trong slide như kết quả đã đạt.
+Điểm khó cần làm rõ là phân biệt “đủ mục” với “đáp ứng yêu cầu”. Một bài có ba heading Problem Card vẫn có thể thiếu lập luận hoặc bằng chứng. Nếu Problem Statement chỉ nói kiểm tra nhanh hơn, công cụ có thể trả kết quả rất nhanh nhưng làm người học tốn công xử lý cảnh báo sai. Vì vậy, đề xuất v1 đo cả thời gian rà và sửa, lỗi còn sót và cảnh báo sai; đồng thời giới hạn Rule ở cấu trúc, còn nội dung phải được người học kiểm lại.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Tôi sẽ ưu tiên quan sát một lần rà bài thật và hỏi người ngoài nhóm trước khi dành nhiều thời gian làm demo. Các câu cần hỏi kỹ hơn là: người học đã bỏ sót gì ở lần nộp gần nhất, checklist hiện tại vướng ở đâu, và công cụ có làm họ tin nhầm bài đã đủ không. Khi benchmark, tôi muốn tính cả công đọc và sửa cảnh báo sai để việc so sánh công bằng hơn.
+Nếu làm lại, tôi sẽ ưu tiên quan sát một lần rà bài thật và hỏi người ngoài nhóm trước khi dành nhiều thời gian làm demo. Tôi muốn hỏi kỹ người học đã bỏ sót gì ở lần nộp gần nhất, checklist hiện tại vướng ở đâu và họ hiểu trạng thái “đã kiểm” như thế nào. Khi thảo luận hướng AI, tôi sẽ yêu cầu so với Rule và tính cả công sửa báo nhầm. Nếu cách đơn giản đã đủ tốt thì nên giữ cách đó.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-Bản nháp để tự ôn theo hướng demo, chưa phải kết luận chung của nhóm: (1) Vấn đề là học viên chưa chắc bài lab còn thiếu yêu cầu hoặc sai quy cách nào trước khi nộp. (2) Quy trình cần xem là đọc yêu cầu, đối chiếu bài, sửa rồi tự nộp; bước đối chiếu đang là bottleneck giả thuyết. (3) Cách đo gồm tổng thời gian kiểm tra và sửa, lỗi bị bỏ sót và cảnh báo sai, với baseline phải đo từ cách làm hiện tại. (4) Boundary là công cụ không tự viết, tự nộp hay cấp điểm, còn người học kiểm tra nội dung và tự quyết định sửa. (5) Phần tên file và cấu trúc có thể bắt đầu bằng Rule; Workflow đọc hiểu chỉ là phương án cần thử thêm. (6) Chưa có lý do chọn Agent vì nhiệm vụ đang có đầu vào và các bước tương đối cố định. (7) Quyết định triển khai cần dựa vào kiểm chứng và benchmark; demo hiện có chưa đủ để khẳng định nên mở rộng.
+Với hướng LabCheck đang đề xuất, vấn đề là học viên chưa chắc bài lab còn thiếu yêu cầu hoặc sai quy cách nào trước khi nộp. Quy trình gồm xác nhận yêu cầu, đối chiếu bài, sửa và tự nộp; bước đối chiếu là bottleneck cần kiểm chứng. Metric gồm tổng thời gian rà và sửa, lỗi còn sót và cảnh báo sai, so với baseline checklist phải đo trước. Boundary là công cụ chỉ báo trong phạm vi đã kiểm, không tự viết, sửa, nộp hoặc cấp điểm. Tôi đề xuất thử Rule cho cấu trúc, còn chất lượng nội dung do người học kiểm; AI chỉ được cân nhắc thêm nếu có giá trị tăng thêm so với Rule. Agent chưa có lý do cần thiết vì đầu vào và các bước đang tương đối cố định. Đề xuất quyết định hiện tại của tôi là Not Yet cho pilot dùng bài thật và phần AI, chờ kiểm chứng, baseline và nhóm chốt các điều kiện thử.
 
 ## 7. Tài liệu tham khảo
 

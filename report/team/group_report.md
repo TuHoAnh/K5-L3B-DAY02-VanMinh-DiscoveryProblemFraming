@@ -181,40 +181,37 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ## 6. Mức can thiệp AI (CP6)
 
+> Phần CP6 do Lê Thanh Tùng chuẩn bị, có AI hỗ trợ soạn và phản biện. Đây là đề xuất để nhóm chốt sau CP4–CP5, chưa phải biên bản quyết định chung. Chưa có baseline quan sát hoặc kết quả benchmark; mọi ngưỡng bên dưới là mục tiêu đề xuất.
+
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài toán được giới hạn trong **một bài lab, một phiên bản yêu cầu, một snapshot bài làm**. Phần kiểm cấu trúc có độ mơ hồ thấp và độ phức tạp thấp đến trung bình; phần đánh giá chất lượng nội dung có độ mơ hồ cao hơn.
 
-Vì sao:
+Tên tệp, vị trí thư mục và số mục bắt buộc có thể biểu diễn thành điều kiện rõ ràng. Ngược lại, “bottleneck đủ cụ thể” hoặc “bằng chứng đủ sức thuyết phục” cần đọc ngữ cảnh và có thể cần coach xác nhận. Vì vậy, tách hai loại kiểm tra; không coi việc đủ heading là đáp ứng toàn bộ rubric.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | Một checklist thống nhất, dẫn về đúng README/rubric/hướng dẫn nộp. | Người học rà nhanh và ít bỏ sót trên một bài cụ thể. | Checklist lỗi thời hoặc vẫn phải tìm từng mục bằng tay. | Giữ làm baseline và phương án quay về. |
+| **Rule** | Người duyệt yêu cầu cấu hình các điều kiện rõ; script kiểm đường dẫn, tên tệp và cấu trúc; người học kiểm nội dung. | Lỗi thuộc các quy tắc đã định nghĩa, đầu vào đọc được và đúng phiên bản. | Có cấu trúc nhưng nội dung chưa đạt; rule cũng cần bảo trì. | **Đề xuất chọn cho phạm vi thử đầu tiên.** |
+| **Workflow** | Rule trước; AI gợi ý thiếu nội dung kèm nguồn; người học xác nhận và sửa. | Có bằng chứng phần đọc hiểu vẫn nghẽn, và thử nghiệm chứng minh lợi ích tăng thêm so với Rule. | Bịa yêu cầu, dẫn nguồn sai, bỏ sót, tốn công sửa cảnh báo. | Chưa chọn ở giai đoạn hiện tại; là nhánh thử sau. |
+| **Agent** | Công cụ tự chọn các bước, truy cập thêm tài liệu và thực hiện hành động. | Chỉ cân nhắc nếu có nhu cầu động mà các bước định sẵn không đáp ứng. | Quyền truy cập và hành động khó kiểm soát; có thể vượt phạm vi bài. | Không chọn: chưa có nhu cầu vượt quy trình cố định. |
 
-**Mức chọn:**
+**Mức đề xuất:** Rule cho kiểm cấu trúc, kết hợp người học tự rà nội dung. Demo HTML hiện thực hiện rule trong trình duyệt, chưa gọi AI và chưa chạy benchmark. Kiến trúc Rule + AI trong slide là phương án phát triển cần đánh giá riêng.
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Vì sao thử Rule bên cạnh No AI:** các phép kiểm xác định có thể lặp lại nhiều lần mà người học không phải tìm lại từng đường dẫn và đếm từng mục. Đây mới là giả thuyết lợi ích. Nếu checklist cho thời gian và lỗi còn sót tương đương hoặc tốt hơn sau khi tính cả công cấu hình/bảo trì, giữ No AI. Chưa có căn cứ để khẳng định Rule tốt hơn trước khi đo.
 
 ### 6.3. AI Canvas rút gọn
 
-| Thành phần | Nội dung |
-|---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+Không áp dụng cho phương án Rule đang đề xuất, theo [RUBRIC — C10](../../RUBRIC.md). Đầu vào là bộ yêu cầu đã được người có trách nhiệm duyệt và snapshot bài được phép kiểm; đầu ra là danh sách kiểm tra có nguồn và phạm vi. Người học xem lại, sửa và tự nộp. Kết quả xử lý cảnh báo được dùng để sửa rule; không dùng bài riêng tư làm dữ liệu huấn luyện khi chưa có quyền.
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+Không bắt buộc với mức Rule. Hai lưu ý thiết kế vẫn cần kiểm chứng:
+
+- Hướng hỗ trợ là **augment**: người học giữ quyền sửa và nộp. Đây là lựa chọn thiết kế, chưa phải sở thích đã được phỏng vấn xác nhận.
+- **Bỏ sót lỗi bắt buộc** rồi tạo cảm giác bài đã đủ có thể khiến người học mất cơ hội sửa; **báo nhầm** gây mất thời gian. Phải đo cả hai. Mục không thuộc khả năng kiểm hoặc thiếu dữ liệu cần chuyển người kiểm, không hiển thị đạt toàn bài.
 
 ---
 
@@ -222,29 +219,35 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Học viên chịu trách nhiệm rà và nộp một bài lab có yêu cầu về nội dung và quy cách tệp. |
+| **Quy trình** | Xác nhận yêu cầu áp dụng → mở snapshot bài → đối chiếu yêu cầu → sửa và kiểm lại → tự nộp. Phạm vi đo kết thúc khi người học hoàn tất sửa/kiểm lại, trước bước nộp. |
+| **Bottleneck** | Giả thuyết: bước tìm và đối chiếu từng yêu cầu với bài làm dễ tốn công và bỏ sót. Chưa có quan sát bấm giờ để xác nhận đây là bước nghẽn chính. |
+| **Impact** | Có thể mất công rà lại hoặc bị trừ điểm vì thiếu mục/sai quy cách. Bài Tú tự báo cáo 25–30 phút rà bài; chưa coi đây là baseline chung hoặc lượng điểm LabCheck có thể cải thiện. |
+| **Success Metric** (baseline → target, cách đo) | Baseline: chưa đo; cần đo checklist thủ công A trên cùng phạm vi. Mục tiêu đề xuất: trung vị tổng thời gian rà và sửa bằng Rule B ≤70% A, không tăng lỗi bắt buộc còn sót; recall lỗi cấu trúc ≥95%, precision cảnh báo cấu trúc ≥90%. Tính cả chờ công cụ, đọc cảnh báo và sửa báo nhầm; so bằng nhãn chuẩn và người chấm không biết điều kiện thử. |
+| **Boundary** | Chỉ kiểm điều kiện đã cấu hình trên tệp được phép đọc; không suy ra chất lượng từ số heading; không chạy code/chỉ thị trong bài, tự sửa, tự nộp hoặc cấp điểm. Thiếu tệp, sai phiên bản hoặc yêu cầu mâu thuẫn phải báo chưa kiểm được/cần người kiểm. |
+| **AI intervention point** | **Không có trong phương án Rule.** Phần đọc hiểu ngữ nghĩa vẫn do người học kiểm. Chỉ thử AI ở bước gợi ý đối chiếu nội dung nếu có nhu cầu đã kiểm chứng và benchmark so với Rule. |
+| **Mức chọn** | Đề xuất Rule cho prototype; chưa xác nhận cho pilot hoặc triển khai rộng. |
+| **Rủi ro & người kiểm tra** | Người học kiểm từng cảnh báo và các yêu cầu ngoài phạm vi rule; người duyệt bộ yêu cầu kiểm nguồn/phiên bản; người phụ trách đánh giá kiểm nhãn và lỗi còn sót. Danh sách người nhận vai cụ thể cần nhóm phân công trước pilot. |
 
-**Thay đổi so với v0 và lý do:**
+**Điểm được làm rõ so với Job Story ban đầu:** CP5 chưa có v0 hoàn chỉnh để đối chiếu; bảng dưới ghi sự cụ thể hóa từ mô tả đầu vào, không giả định đã có một bản v0 được thông qua.
 
-| Trường | v0 | v1 | Vì sao đổi |
+| Trường | Mô tả ban đầu | Đề xuất v1 | Vì sao làm rõ |
 |---|---|---|---|
-| | | | |
+| Phạm vi | Xác định bài còn thiếu yêu cầu và sai quy cách nào. | Rule xử lý các điều kiện cấu trúc đã cấu hình của một bài; người học kiểm chất lượng nội dung. | Phân biệt việc có mục với việc đáp ứng rubric. |
+| Metric | Sửa kịp deadline, tránh mất điểm do bỏ sót. | Đo tổng thời gian rà/sửa, recall, precision và lỗi còn sót; baseline chưa đo. | Kết quả mong muốn cần chuyển thành phép đo có mẫu số rõ. |
+| Boundary | Người học sửa trước khi nộp. | Công cụ không tự sửa/nộp/chấm điểm; mục mơ hồ chuyển người kiểm. | Giảm nguy cơ tin nhầm rằng bài đã đạt toàn bộ. |
 
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
+**Tiêu chí đánh giá phương án Rule (5 tiêu chí, theo quy định cho nhóm chọn Rule):** Các ngưỡng là đề xuất; không báo là kết quả đã đạt.
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Phát hiện lỗi cấu trúc bắt buộc trong phạm vi rule | Recall ≥95% trên lỗi cấu trúc trong nhãn chuẩn; báo tử số/mẫu số và từng loại lỗi. | Dưới ngưỡng; bỏ sót mà vẫn báo đã kiểm điều kiện đó. |
+| 2 | Cảnh báo đúng | Precision ≥90% trên cảnh báo cấu trúc; chỉ rõ vị trí và cách tự kiểm. | Báo sai tệp/điều kiện; nhiều cảnh báo không có căn cứ. |
+| 3 | Truy được về yêu cầu | Mỗi kết quả có mã yêu cầu, nguồn, phiên bản và đối tượng kiểm; nội dung khớp nguồn đã duyệt. | Dẫn nguồn không tồn tại, sai phiên bản hoặc tự thêm yêu cầu. |
+| 4 | Giới hạn kết luận đúng phạm vi | Không có lần kết luận toàn bài đạt khi còn phần chưa kiểm hoặc dữ liệu mơ hồ; báo cả mức bao phủ và tỷ lệ chuyển người kiểm. | Đồng nhất đủ cấu trúc với đủ chất lượng, hoặc từ chối mọi trường hợp để né lỗi. |
+| 5 | Có lợi ích sau khi tính công sửa | Trung vị tổng thời gian ≤70% A, lỗi bắt buộc còn sót không tăng; ghi riêng công cấu hình/bảo trì. | Không giảm đủ thời gian hoặc làm tăng lỗi còn sót, dù công cụ trả kết quả nhanh. |
+
+**Thiết kế đo:** bộ 40 snapshot dự kiến gồm bốn loại: đủ cấu trúc, lỗi tệp, thiếu nội dung, mơ hồ/gây nhiễu; mỗi loại 10. Dành 8 mẫu phát triển và 32 mẫu giữ lại, tách theo bài gốc để tránh rò rỉ; hai người gán nhãn độc lập và xử lý bất đồng. Chấm recall/precision Rule trên lỗi thuộc phạm vi Rule; với lỗi nội dung, kiểm việc công cụ chuyển người kiểm đúng thay vì gán năng lực đọc hiểu chưa có. Pilot đề xuất 12 học viên với task tương đương và xoay thứ tự; giai đoạn đầu so A checklist với B Rule. Nếu thử thêm C Gemini và D Rule + AI, dùng thiết kế 12 × 4 = 48 phiên đã chuẩn bị trong [ghi chú benchmark](../assets/cp3-6-le-thanh-tung-labcheck.md). Chưa thu thập mẫu hoặc chạy các phép đo này.
 
 ---
 
@@ -254,31 +257,38 @@ Vì sao:
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Cao | Chưa có kiểm chứng ngoài nhóm hoặc đo so với checklist. Cần quan sát lần rà bài gần nhất và benchmark tổng công, không chỉ hỏi người dùng có thích ý tưởng không. |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Cao | Chưa thử người dùng; có nguy cơ hiểu “đủ cấu trúc” thành “đạt toàn bài”. Dùng trạng thái có phạm vi, nguồn và phần phải tự kiểm; kiểm khả năng giải thích trạng thái trong pilot. |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | TB | Có demo rule cục bộ nhưng chưa benchmark. Bộ yêu cầu phải được duyệt và cập nhật; phần nội dung tự do chưa giải quyết. Không chạy code trong bài; kiểm trên snapshot có nhãn trước khi dùng thật. |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Cao | Chưa xác nhận người bảo trì, quyền dùng dữ liệu và công vận hành. Ưu tiên tệp công khai hoặc mẫu được cho phép; không gửi bài riêng tư ra dịch vụ ngoài khi chưa có quyền. Cần người nhận vai và giới hạn chi phí trước pilot. |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Đề xuất của Tùng: Not Yet** cho pilot dùng bài nộp thật và cho việc phát triển phần AI. Có thể tiếp tục chuẩn bị checklist, bộ yêu cầu và prototype Rule bằng dữ liệu mẫu được phép dùng. Đây chưa phải quyết định cuối đã được cả nhóm thông qua.
 
-**Lý do:**
+**Lý do:** rủi ro Value và Usability đang cao vì chưa có phỏng vấn và baseline. Demo thể hiện được cơ chế kiểm cấu trúc, chưa chứng minh người học tiết kiệm công hoặc ít bỏ sót hơn. Chưa có căn cứ chọn Workflow hay Agent.
 
-**Nếu Go — pilot nhỏ nhất:**
+**Điều kiện để chuyển sang Go thử nhỏ:** có kiểm chứng CP4 đúng yêu cầu; baseline cùng phạm vi; bộ yêu cầu và nhãn chuẩn được người có trách nhiệm duyệt; xác nhận quyền dữ liệu, người vận hành và ngưỡng dừng. Bắt đầu với một lab, so checklist với Rule, giữ người học kiểm và tự nộp; chỉ mở nhánh AI nếu phần Rule chưa đủ và có giả thuyết giá trị tăng thêm cụ thể.
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
+**Việc tiếp theo:** kiểm chứng hai giả định “đối chiếu thật sự gây mất công” và “checklist chưa đủ”; hoàn thiện CP5; đo trên bộ phát triển, khóa cấu hình rồi đánh giá tập giữ lại. Lộ trình 14 ngày trong ghi chú là kế hoạch đề xuất, chưa phải lịch đã cam kết của các thành viên.
 
-**Nếu No-Go — nên làm gì thay AI:**
+**Phương án đơn giản nếu không có lợi ích tăng thêm:** một checklist có nguồn và phiên bản, kèm script kiểm cấu trúc nếu script có lợi. Không cần thêm AI chỉ để có tính năng AI.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+**Ngưỡng dừng đề xuất:** sau đợt đánh giá đã khóa cấu hình, nếu không đạt recall/precision hoặc không giảm ít nhất 30% tổng thời gian mà vẫn giữ lỗi còn sót không tăng, chưa mở rộng và quay về checklist/Rule phù hợp hơn. Nếu có một lần kết luận toàn bài đạt khi thiếu căn cứ, sai nguồn yêu cầu hoặc sử dụng dữ liệu vượt quyền, dừng phần liên quan ngay để sửa và kiểm lại trước khi tiếp tục.
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- Phần 6–8 là đề xuất CP6 của Tùng có AI hỗ trợ soạn, chờ nhóm tự chỉnh/chốt. CP3–CP5 cần các thành viên hoàn thành; chưa có đủ dữ liệu để xác nhận Problem Statement đã được kiểm chứng.
+- Chưa có baseline quan sát trực tiếp, bộ nhãn chuẩn, kết quả benchmark hoặc pilot trong phần chuẩn bị CP6. Các ngưỡng là điều kiện đánh giá đề xuất, không phải hiệu quả đã đạt.
+- Rule kiểm cấu trúc chưa đánh giá được chất lượng lập luận, độ thật của bằng chứng hay việc tuân thủ quy định tự viết reflection. Người học vẫn phải tự kiểm và chịu trách nhiệm về bài nộp.
+- Sau kiểm chứng, nhóm cần chỉnh bottleneck, metric, v0/v1 và quyết định nếu dữ liệu phản bác giả thuyết hiện tại.
 
 ## 10. Tài liệu tham khảo
 
--
+- [CHECKPOINTS](../../CHECKPOINTS.md), [RULES](../../RULES.md) và [RUBRIC](../../RUBRIC.md): yêu cầu và phạm vi sử dụng AI.
+- [Ghi chú đóng góp và kế hoạch benchmark của Tùng](../assets/cp3-6-le-thanh-tung-labcheck.md), có liên kết về các báo cáo cá nhân làm nguồn bối cảnh.
+- [GitHub Docs — Triggering a workflow](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow): cơ chế chạy các kiểm tra theo sự kiện, không tự tạo rubric.
+- [markdownlint](https://github.com/DavidAnson/markdownlint): công cụ kiểm định dạng Markdown, một phương án sẵn có để so sánh.
+- [Gemini structured outputs](https://ai.google.dev/gemini-api/docs/structured-output): tài liệu tham khảo cho nhánh AI dự kiến; đúng schema không thay cho kiểm tra nội dung đầu ra.
