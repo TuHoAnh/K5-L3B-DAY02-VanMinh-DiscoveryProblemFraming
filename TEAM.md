@@ -62,7 +62,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Phần việc đã chuẩn bị:**
 
 - CP1: đưa ra 5 vấn đề về cộng đồng học tập, tạo đề, debug, VPS và tiến độ nhóm.
-- CP2: chuẩn bị 3 card và 3 quy trình nháp để trao đổi; còn cần kiểm tra thứ tự ưu tiên và thời gian từng bước.
+- CP2: chuẩn bị 3 card về tạo đề, tiến độ nhóm và gian lận thời gian học, kèm 3 quy trình nháp. Chọn gian lận thời gian thay cho VPS vì hiểu vấn đề này hơn; thời gian từng bước còn cần đo.
 - Cách dùng AI trong quá trình chuẩn bị được ghi ở mục 5 của báo cáo cá nhân.
 
 **Sản phẩm hiện có:**

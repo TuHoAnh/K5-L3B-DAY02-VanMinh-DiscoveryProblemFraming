@@ -41,9 +41,9 @@ Một số điểm cần kiểm tra thêm:
 |---:|---|---|---|
 | 1 | #2 — Soạn bộ đề từ tài liệu mới | Có đầu vào là tài liệu và đầu ra là bộ câu hỏi; có thể kiểm cả thời gian lẫn chất lượng. | Bước nào thực sự tốn nhất? Việc sửa và duyệt câu hỏi mất bao lâu? |
 | 2 | #5 — Tổng hợp tiến độ qua chat | Có thể lần theo tin nhắn, task và các lần phải hỏi lại để tìm chỗ nghẽn. | Trễ việc do thông tin bị trôi hay do quá tải, phụ thuộc công việc khác? |
-| 3 | #4 — Phát hiện muộn sự cố VPS | Có thể đối chiếu thời điểm lỗi, cảnh báo và lúc bắt đầu xử lý qua log. | Dự án đã có monitoring chưa? Có dữ liệu trước lúc người dùng báo không? |
+| 3 | #1 — Gian lận thời gian trong cộng đồng học tập | Tôi hiểu vấn đề này hơn so với VPS nên chọn để phân tích kỹ và chuẩn bị trao đổi. | Cộng đồng tính giờ thế nào? Dấu hiệu nào đủ để xác minh một report mà không xử lý nhầm? |
 
-Hai ý còn lại vẫn được giữ trong bảng scan. Với giờ học, cần làm rõ tiêu chí xác minh công bằng. Với debug, cần thu hẹp vào một loại lỗi và một lần xử lý cụ thể.
+Tôi thay VPS bằng gian lận thời gian học trong top 3 vì hiểu vấn đề này hơn. VPS và debug vẫn được giữ trong bảng scan; với debug cần thu hẹp vào một loại lỗi và một lần xử lý cụ thể. Thứ tự card dưới đây dùng để đánh số, còn card tôi muốn trao đổi trước là #3.
 
 ### Problem Card #1 — Tạo đề kiểm tra từ tài liệu mới
 
@@ -102,40 +102,39 @@ flowchart TD
 
 Công chủ động mỗi lần chốt là tổng 5 bước. W là thời gian chờ phản hồi, không tính toàn bộ W thành giờ làm việc của trưởng nhóm. Muốn quy đổi theo tuần cần biết tần suất thực tế.
 
-### Problem Card #3 — Phát hiện muộn sự cố VPS
+### Problem Card #3 — Gian lận thời gian trong cộng đồng học tập trực tuyến
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi web hoặc bot chạy trên VPS bị chậm hay gián đoạn, tôi muốn nhận biết dấu hiệu bất thường sớm, để bắt đầu xử lý trước khi phải chờ người dùng nhắn báo. |
-| Actor | Người vận hành dự án; người dùng chịu ảnh hưởng khi dịch vụ chậm hoặc không truy cập được. |
-| Thời điểm / bối cảnh | Dịch vụ trên VPS gặp lỗi hoặc phản hồi chậm vào thời điểm tải tăng. Cấu hình và nguyên nhân thực tế cần kiểm qua log. |
-| Quy trình hiện tại (3–7 bước) | Dịch vụ chậm/lỗi → Người dùng báo, quản trị viên nhận biết → Kiểm log và tài nguyên → Xác định nguyên nhân → Xử lý → Kiểm tra phục hồi. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến ở khoảng chờ nhận biết sự cố. **D = thời điểm quản trị viên xác nhận − thời điểm đầu tiên log/kiểm tra uptime ghi nhận ảnh hưởng**. Baseline chưa đo; nếu thiếu log trước lúc người dùng báo thì chưa tính D đáng tin cậy được. |
-| Impact (nếu không giải thì sao) | Bắt đầu xử lý muộn, kéo dài ảnh hưởng đến người dùng. Cần tách phần chậm phát hiện khỏi thời gian sửa lỗi. |
-| Success metric (baseline → target) | D chưa đo → mục tiêu đề xuất **≤5 phút** khi có giám sát và người nhận cảnh báo. Theo dõi thêm downtime/30 ngày, latency p95 cùng khung giờ và cảnh báo không cần hành động/ngày; mục tiêu thử nghiệm cho chỉ số cuối là **≤1/ngày**. |
-| Phương án không dùng AI | Kiểm tra uptime từ bên ngoài, theo dõi CPU/RAM/disk và lỗi ứng dụng; cảnh báo theo ngưỡng kéo dài tới người phụ trách, kèm checklist xử lý. |
-| Giả thuyết về AI (nếu có) | Có thể hỗ trợ đọc/tóm tắt log nếu khâu chẩn đoán được xác định là nghẽn. Chưa cần dùng cho cảnh báo theo ngưỡng; chưa có căn cứ đề xuất tự nâng cấu hình hoặc tự khởi động lại. |
-| Cảm nhận nhanh | Rule trước: monitoring và cảnh báo có thể đủ cho phần phát hiện. |
+| Job Story | Khi quản lý một cộng đồng có bảng xếp hạng giờ học và nhận report về việc treo máy, tôi muốn xác minh phiên bị phản ánh theo nội quy, để giữ công bằng cho người học thật và tránh xử lý nhầm. |
+| Actor | Quản trị viên trực tiếp kiểm tra report; người học và thành viên bị báo cáo là các bên liên quan. |
+| Thời điểm / bối cảnh | Cộng đồng ghi giờ học từ phiên tham gia phòng, có camera hoặc chia sẻ màn hình và dùng giờ để xếp hạng. Tôi hiểu vấn đề này hơn so với VPS; chưa có thống kê report và thời gian xử lý của một cộng đồng cụ thể trong bài. |
+| Quy trình hiện tại (3–7 bước) | Nhận report → Tra thời điểm, nội quy và số giờ được ghi → Kiểm tra thông tin phiên, hỏi thành viên để xác minh → Quản trị viên quyết định → Thông báo và lưu kết quả, điều chỉnh giờ nếu xác nhận vi phạm. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước xác minh: quản trị viên phải đối chiếu report, thông tin phiên và giải thích của thành viên. Không thể theo dõi liên tục mọi màn hình; một ảnh chụp hoặc việc ít chuyển động cũng chưa đủ để kết luận. **Chưa đo phút/report** và tổng giờ kiểm tra/tuần. |
+| Impact (nếu không giải thì sao) | Giờ ghi nhận có thể không phản ánh việc học theo nội quy, gây tranh cãi về bảng xếp hạng và tăng công kiểm tra. Nếu xử lý nhầm thì người học hợp lệ cũng bị ảnh hưởng. |
+| Success metric (baseline → target) | Gọi T là số phút chủ động xác minh trung bình/report đã xử lý: baseline chưa đo → mục tiêu đề xuất **≤70% T** trong đợt thử 2 tuần. Ghi thêm tổng giờ kiểm tra/tuần, số report và số report xác nhận vi phạm. Chất lượng: tỷ lệ quyết định phải sửa sau khi xem lại **không tăng**. Số report chỉ dùng theo dõi tình hình, không tự coi report giảm là gian lận giảm. |
+| Phương án không dùng AI | Làm rõ nội quy tính giờ và nghỉ hợp lệ; mẫu report có thời điểm, mô tả và thông tin cần kiểm; checklist xác minh; check-in theo quy tắc nếu phù hợp với nội quy. Quản trị viên xử lý các trường hợp cần xem xét. |
+| Giả thuyết về AI (nếu có) | Nếu đọc và gom nhiều report là phần tốn thời gian, có thể hỗ trợ tóm tắt thông tin được phép truy cập, kèm nguồn để quản trị viên đối chiếu. Không dùng việc nhìn camera để tự kết luận ai đang học; không tự trừ giờ hoặc khóa tài khoản. |
+| Cảm nhận nhanh | No AI / Rule trước để chuẩn hóa cách tính giờ, check-in và xử lý report. Chỉ cân nhắc Workflow khi việc đọc, tổng hợp report thực sự còn nghẽn. |
 
-Quy trình nháp:
+Quy trình nháp; số phút từng bước sẽ bổ sung sau khi theo dõi một lần xử lý thực tế:
 
 ```mermaid
 flowchart TD
-  A["1. Lỗi/chậm bắt đầu<br/>Ghi timestamp từ log hoặc uptime"] --> B["2. Người dùng báo, quản trị viên xác nhận<br/>D = __ phút — cần đo<br/>BƯỚC NGHẼN GIẢ THUYẾT"]
-  B --> C["3. Kiểm tra log và tài nguyên<br/>__ phút — cần đo"]
-  C --> D["4. Xác định nguyên nhân, chọn xử lý<br/>__ phút — cần đo"]
-  D --> E["5. Thực hiện xử lý<br/>__ phút — cần đo"]
-  E --> F["6. Kiểm tra phục hồi<br/>__ phút — cần đo"]
-  style B fill:#ffe4e6,stroke:#be123c
+  A["1. Nhận report<br/>__ phút — cần đo"] --> B["2. Tra thời điểm, nội quy và giờ ghi nhận<br/>__ phút — cần đo"]
+  B --> C["3. Kiểm thông tin phiên, hỏi thành viên để xác minh<br/>__ phút chủ động + W phút chờ<br/>BƯỚC NGHẼN GIẢ THUYẾT"]
+  C --> D["4. Quản trị viên quyết định<br/>__ phút — cần đo"]
+  D --> E["5. Thông báo, lưu kết quả; sửa giờ nếu có vi phạm<br/>__ phút — cần đo"]
+  style C fill:#ffe4e6,stroke:#be123c
 ```
 
-Thời gian đến lúc phục hồi gồm cả phát hiện và xử lý. Downtime chỉ tính khoảng dịch vụ không phục vụ được, không mặc định toàn bộ thời gian kiểm tra là downtime.
+Thời gian chủ động xác minh T được ghi ở bước 3; thời gian chờ thành viên phản hồi W ghi riêng. Tổng công kiểm tra mỗi tuần cần tính cả các bước khác và các lượt kiểm tra chưa phát sinh report, tránh chỉ chuyển công từ bước này sang bước khác.
 
-[DigitalOcean Monitoring Quickstart](https://docs.digitalocean.com/products/monitoring/getting-started/quickstart/) có cảnh báo theo ngưỡng với khoảng duy trì **5, 10, 30 phút hoặc 1 giờ**. Để thử mục tiêu D ≤5 phút cần chọn cửa sổ phù hợp và tính cả độ trễ nhận cảnh báo.
+Nguồn tham khảo cho nội quy chống farming và cách ghi giờ nằm ở [memo, mục 1](../assets/cp1-2-evidence-research.md#1-cày-giờ-trong-cộng-đồng-học-trực-tuyến). Những nguồn này chưa cho biết tỷ lệ gian lận hoặc thời gian quản trị viên mất trong cộng đồng đang xét.
 
 ### Card dự kiến trao đổi trước
 
-- Card #1 — tạo đề kiểm tra: có đầu ra cụ thể để xem xét cả thời gian lẫn chất lượng.
+- Card #3 — gian lận thời gian học: tôi hiểu vấn đề này hơn và muốn trao đổi trước về cách xác minh report, công kiểm tra và sự công bằng của bảng xếp hạng.
 - Thứ tự này đang để chuẩn bị, có thể thay đổi sau khi kiểm tra dữ liệu và trao đổi với nhóm.
 - Câu hỏi muốn nhóm phản biện: _Bổ sung khi chuẩn bị pitch._
 
@@ -145,7 +144,7 @@ Thời gian đến lúc phục hồi gồm cả phát hiện và xử lý. Downt
 |---|---|---|
 | Tạo đề nhanh hơn chưa chắc có lợi nếu phải sửa nhiều. | Đo tổng công để có 50 câu được duyệt, thêm kiểm đáp án, căn cứ và độ phủ. | Ghi riêng thời gian soạn và sửa. |
 | Tiến độ nhóm có thể vướng ở cách cập nhật, không phải ở công cụ. | Thêm phương án bảng task chung và quy ước cập nhật; tách công chủ động khỏi thời gian chờ. | Xem thông tin đã có nhưng khó tìm hay chưa được cung cấp. |
-| VPS đang gộp phát hiện với chẩn đoán và khôi phục. | Dùng D cho phần phát hiện, ghi downtime riêng và so sánh phương án Rule. | Kiểm tra log và cảnh báo đang có. |
+| Camera bật, ít chuyển động hoặc có report chưa đủ chứng minh gian lận. | Tập trung vào quy trình xác minh theo nội quy; để quản trị viên quyết định và theo dõi các quyết định phải sửa. | Làm rõ cách tính giờ, nghỉ hợp lệ và thông tin dùng để kiểm tra từng report. |
 | Số liệu bên ngoài chưa phải baseline của các tình huống đang xét. | Giữ nguồn, ghi rõ giới hạn và để phần chưa đo thay vì gán số. | Bổ sung số đo trực tiếp trước khi chốt mục tiêu. |
 
 ## 4. Tôi đã tham gia phần nào (bổ sung sau hoạt động nhóm)
@@ -180,7 +179,7 @@ Tôi đưa ra 5 mô tả ban đầu. Trong phần chuẩn bị, tôi dùng AI đ
 | Phần | Tôi dùng AI để làm gì? | Hữu ích ở đâu? | Hạn chế hoặc chỗ cần sửa | Điều tôi đã yêu cầu chỉnh / cần làm tiếp |
 |---|---|---|---|---|
 | CP1 | Sắp xếp 5 mô tả theo mẫu Job Story. | Làm rõ bối cảnh, người gặp vấn đề và kết quả mong muốn. | Có thể diễn giải rộng hơn mô tả ban đầu. | Giữ 5 vấn đề tôi đã đưa ra; đối chiếu lại cách diễn đạt. |
-| CP2 | Gợi ý thứ tự top 3, biên tập card, dựng sơ đồ và phản biện. | Chỉ ra cần đo cả công sửa đề, tách thời gian chờ và thời gian phát hiện lỗi. | Thứ tự ưu tiên và bước nghẽn mới là giả thuyết, chưa qua kiểm chứng. | Kiểm lại quy trình và thứ tự trước khi pitch. |
+| CP2 | Gợi ý top 3, biên tập card, dựng sơ đồ và phản biện. | Làm rõ công sửa đề, thời gian chờ và cách xác minh report học tập. | Danh sách đầu có VPS, trong khi tôi hiểu vấn đề gian lận thời gian hơn; các bước nghẽn vẫn cần kiểm chứng. | Tôi yêu cầu thay card VPS bằng gian lận thời gian học và chọn card này để trao đổi trước. |
 | Nguồn tham khảo | Tôi yêu cầu AI tự tìm số liệu công khai. | Có 8 nguồn kèm phạm vi áp dụng trong memo. | Không tìm được tỷ lệ gian lận giờ học hoặc baseline VPS nhỏ phù hợp; số liệu ngoài không phải số đo của tôi. | Mở lại nguồn sẽ dùng và bổ sung dữ liệu trực tiếp. |
 | Biên tập bài | Nhờ sửa cách trình bày sau khi đọc bản đầu. | Có thể rút câu và thống nhất cách xưng hô. | Bản đầu lặp “học viên”, “trợ lý”, đọc giống hướng dẫn hơn bài cá nhân. | Tôi yêu cầu viết tự nhiên hơn, làm rõ ý tưởng ban đầu là của tôi và ghi đúng phần AI hỗ trợ. |
 | CP4–CP6 | Chưa thực hiện phần nhóm. | — | Chưa có phỏng vấn, Problem Statement hay quyết định chung. | Bổ sung sau khi thực hiện. |
