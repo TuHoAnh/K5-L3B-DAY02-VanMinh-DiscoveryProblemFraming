@@ -124,7 +124,7 @@ Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Phỏng vấn mô phỏng bằng AI | 3 | Khó đối chiếu từng yêu cầu với đúng file hoặc đoạn nội dung, dễ bỏ sót báo cáo bắt buộc; yêu cầu phân tán giữa rubric và tin nhắn khiến phải rà nhiều nguồn; đủ file và đúng tên chưa bảo đảm đủ mục nội dung. | Checklist và script có thể đã đủ với bài quen thuộc.|
+| Phỏng vấn | 3 | Khó đối chiếu từng yêu cầu với đúng file hoặc đoạn nội dung, dễ bỏ sót báo cáo bắt buộc; yêu cầu phân tán giữa rubric và tin nhắn khiến phải rà nhiều nguồn; đủ file và đúng tên chưa bảo đảm đủ mục nội dung. | Checklist và script có thể đã đủ với bài quen thuộc.|
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**  Thu hẹp phạm vi vào việc phát hiện thiếu mục bắt buộc và sai quy cách nộp bài, thay vì đánh giá toàn bộ chất lượng bài làm. Ưu tiên thử checklist và script đơn giản trước khi cân nhắc AI để giảm chi phí và dễ áp dụng.
 
