@@ -18,18 +18,18 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Nguyễn Nam Khánh | Khi làm bài lab và gặp thuật ngữ mới, tôi muốn xác định kiến thức nền cần hiểu trước, để tránh tìm hiểu lan man và tiếp tục làm bài. | Sinh viên AI thực chiến chưa có nhiều kiến thức chuyên môn | Bước 4: xác định kiến thức liên quan cần hiểu trước ước lượng 5 phút, chưa bấm giờ. | |
+| 2 | Nguyễn Nam Khánh | Khi chuẩn bị nộp bài lab/minilab, tôi muốn đổi tên file, điền và kiểm tra thông tin đúng quy định, để tránh mất điểm do sai quy cách. | Sinh viên AI thực chiến | Bước 2–4: đổi tên file, điền và kiểm tra thông tin; khoảng 5 phút theo card | |
+| 3 | Nguyễn Nam Khánh | Khi tìm kiếm và phác thảo ý tưởng dự án, tôi muốn tham khảo, đánh giá và tổng hợp các hướng đi, để chọn được một ý tưởng khả thi và phù hợp. | PM | Bước 3: tìm nguồn tham khảo, đánh giá, tổng hợp và phát triển các hướng (ước lượng 20 phút, chưa bấm giờ). | |
+| 4 | Hồ Anh Tú | Khi bước vào đầu mỗi tuần với lịch học đan xen dày đặc giữa UET và VinUni, tôi muốn có danh sách tổng hợp mọi deadline bài tập, lịch thi và phòng học trong 7 ngày tới tập trung tại một nơi, để không bị nộp muộn hoặc chạy nhầm lịch giữa hai cơ sở. | Sinh viên năm cuối đang học song song 2 chương trình (ĐH chính quy & Chương trình đào tạo nhân tài). | Bước 3 & 4: Tìm và lọc thông báo deadline trôi dạt trong các kênh chat Discord/Sheet, mất khoảng 12–15 phút vì tin nhắn thảo luận làm loãng thông tin. | |
+| 5 | Hồ Anh Tú | Khi chuẩn bị nộp bài lab môn học, tôi muốn đối chiếu nhanh bài làm và cấu trúc thư mục của mình với toàn bộ rubric/checklist yêu cầu, để đảm bảo không bị trừ điểm oan do thiếu mục hoặc sai quy cách nộp bài. | Học viên làm bài lab kỹ thuật/AI có nhiều quy định chặt chẽ về cấu trúc nộp bài. | Bước 3 & 5: Đọc đối chiếu từng tiêu chí trong file rubric dài với bài làm thực tế, mất khoảng 12–15 phút và rất dễ bỏ sót. | |
+| 6 | Hồ Anh Tú | Khi bắt đầu một buổi tự học vào buổi tối trong trạng thái quá tải trước hàng đống task dồn dập, tôi muốn xác định ngay 1–2 việc cụ thể cần hoàn thành trong 90 phút đầu, để vượt qua cảm giác hoang mang và sức ỳ trì hoãn. | Sinh viên năm cuối chịu áp lực kép từ 2 trường, bị phân tâm tâm lý. | Bước 2 & 3: Trì hoãn và lúng túng trong việc ra quyết định chọn task để bắt đầu, mất từ 30–45 phút. | |
+| 7 | Lê Thanh Tùng | Khi có tài liệu nghiệp vụ hoặc bài giảng mới, tôi muốn soạn được 50 câu hỏi có đáp án và độ khó phù hợp, để đánh giá đúng nội dung cần học và phát hành kịp thời. | Giảng viên hoặc chuyên viên đào tạo phụ trách soạn đề; người có chuyên môn duyệt nội dung. | Dự kiến ở bước viết câu hỏi: phải chuyển ý chính thành câu hỏi có phương án nhiễu hợp lý.  | |
+| 8 | Lê Thanh Tùng | Khi giao task và cập nhật tiến độ qua chat, tôi muốn biết rõ ai phụ trách, hạn nào và trạng thái đã được xác nhận, để tránh bỏ sót, làm trùng và báo cáo sai tiến độ. | Trưởng nhóm tổng hợp; thành viên xác nhận công việc của mình. | Dự kiến ở bước hỏi lại để xác nhận người phụ trách, deadline và trạng thái. | |
+| 9 | Lê Thanh Tùng | Khi quản lý một cộng đồng có bảng xếp hạng giờ học và nhận report về việc treo máy, tôi muốn xác minh phiên bị phản ánh theo nội quy, để giữ công bằng cho người học thật và tránh xử lý nhầm. | Quản trị viên trực tiếp kiểm tra report; người học và thành viên bị báo cáo là các bên liên quan. | Bước xác minh: quản trị viên phải đối chiếu report, thông tin phiên và giải thích của thành viên. Không thể theo dõi liên tục mọi màn hình; một ảnh chụp hoặc việc ít chuyển động cũng chưa đủ để kết luận. | |
+| 10 | Vũ Văn Bình | Khi yêu cầu bài tập được cập nhật qua nhiều kênh, tôi muốn xác định yêu cầu cuối cùng áp dụng cho bài của mình, để không bỏ sót tiêu chí hoặc làm theo bản cũ. | Sinh viên chịu trách nhiệm kiểm tra yêu cầu cho một bài tập cụ thể. | Bước 4 — đối chiếu phiên bản: ước tính 7 phút/bài, trong tổng 22 phút thao tác; không tính chờ trả lời. | |
+| 11 | Vũ Văn Bình | Khi nhận đủ các phần bài nhóm, tôi muốn phát hiện và xử lý nội dung trùng, thiếu hoặc mâu thuẫn, để tạo một bài thống nhất trước hạn nộp. | Thành viên được giao tổng hợp một báo cáo nhóm. | Ước tính 25 phút/bài, với báo cáo 12–15 trang của nhóm 4 người. | |
+| 12 | Vũ Văn Bình | Khi một quầy thuốc đăng ký tham gia mạng lưới tiếp thị, tôi muốn kiểm tra khoảng cách đường chim bay từ quầy đó đến các quầy đã được nhận, để chỉ tiếp nhận quầy mới khi không có quầy đã tham gia nằm cách dưới 3 km. | Dược sĩ phụ trách tiếp thị và xét duyệt quầy thuốc tham gia mạng lưới. | Bước 4 — đối chiếu khoảng cách: ước tính 5 phút/hồ sơ, theo kịch bản 10 quầy đã nhận × 0,5 phút/lần đo; tổng xử lý 12 phút/hồ sơ. | |
 
 ### 2.2. Cluster
 
