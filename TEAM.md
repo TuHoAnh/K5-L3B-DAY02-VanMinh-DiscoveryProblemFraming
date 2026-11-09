@@ -4,18 +4,18 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Văn Minh
 - Candidate problem nhóm chọn (1 câu):
 - Quyết định cuối (Go / Not Yet / No-Go):
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
-|---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| --: | --------- | ---- | ------------------ | ---------------- |
+|   1 |           |      |                    |                  |
+|   2 |           |      |                    |                  |
+|   3 |           |      |                    |                  |
+|   4 |           |      |                    |                  |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -23,15 +23,15 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 ## Phân công theo checkpoint
 
-| Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
-|---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| Checkpoint                                 | Người chính | Người hỗ trợ | Sản phẩm                                       |
+| ------------------------------------------ | ----------- | ------------ | ---------------------------------------------- |
+| CP3 — Hội tụ nhóm                          |             |              | Cluster, cây OST, bảng chấm điểm               |
+| CP4 — Kiểm chứng                           |             |              | Assumption map, snapshot hoặc survey           |
+| CP4 — Research                             |             |              | Bảng research có link                          |
+| CP5 — Quy trình trước/sau                  |             |              | Quy trình + bảng before/after                  |
+| CP5 — Problem Statement v0                 |             |              | Problem Statement v0                           |
+| CP6 — Mức can thiệp + Problem Statement v1 |             |              | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định                           |             |              | 4 rủi ro + Go/Not Yet/No-Go                    |
 
 ## Cá nhân
 
@@ -41,19 +41,48 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
+- **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- **Điều mình học được từ phần nhóm:**
+
 -
+
+### HoAnhTu-2A202603811 (Nhóm trưởng)
+
+**Phần việc phụ trách:**
+
+- Khởi tạo và quản lý GitHub Repository của nhóm (Fork repo, cấu hình quyền Collaborator, hướng dẫn workflow nhánh).
+- Chủ trì buổi thảo luận pitch và phản biện nội bộ CP3; xây dựng cấu trúc Cây Cơ hội (Opportunity Solution Tree - OST).
+- Trực tiếp đóng góp đề tài được chọn làm bài toán chung của nhóm: _Rà soát checklist/rubric bài lab trước khi nộp_.
+- Trực tiếp thực hiện phỏng vấn người dùng thật theo chuẩn The Mom Test tại lớp (CP4) và nghiên cứu giải pháp Pre-commit hooks/Linter.
+- Thiết kế sơ đồ luồng quy trình Hiện tại (As-Is) và Tương lai (To-Be) 2 tầng (Rule + LLM) kèm bước Human-in-the-loop (CP5).
+- Chủ trì xây dựng bộ tiêu chí đánh giá (Eval), phân tích rủi ro và xác lập Ngưỡng dừng (Stop condition) cho quyết định Go/No-Go (CP6).
+- Đảm nhận thuyết trình và trả lời các câu hỏi thắc mắc của lớp, giúp team được cộng điểm
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Đóng góp **Problem Card #2** (Rà soát checklist/rubric) đạt điểm tuyệt đối 35/35 ở vòng chấm Shortlist; chủ động đề xuất tích hợp bài toán xác định yêu cầu của bạn Bình (#10) vào làm khâu tiền xử lý để tối ưu sự đồng thuận của nhóm.
+- Tiến hành 01 buổi phỏng vấn trực tiếp học viên nhóm 02 tại lớp theo đúng 3 nguyên tắc The Mom Test, trích xuất raw quote và insight then chốt: _Áp lực thời gian khiến học viên dễ bỏ qua khâu đối chiếu và có nguy cơ bị điểm 0 oan_.
+- Soạn thảo bản thảo sơ đồ quy trình tương lai To-Be dạng Mermaid, phân định rõ ràng giữa tầng 1 (Rule-based check định dạng file, regex tên, số từ) và tầng 2 (LLM Semantic Audit).
+- Viết bản nháp và hoàn thiện **Problem Statement v0 & v1**; thiết lập ranh giới cứng (Boundary: AI chỉ có quyền Read & Warn, cấm tự ý sửa file hay tự push code).
+- Định nghĩa bộ Benchmark 10 bài lab mẫu và chỉ số Semantic Precision $\ge 85\%$ để ngăn chặn rủi ro False Positive gây hoang mang cho người dùng.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `report/team/group_report.md`:
+  - Phần CP3 (Hội tụ nhóm): Bảng Pitch Candidate #5, sơ đồ cây OST và bảng chấm điểm Shortlist.
+- `report/individual/2A202603811_HoAnhTu.md`: Báo cáo cá nhân đầy đủ từ CP1 đến CP7.
+- Commits trên repo:
+  - `feat: complete CP1 and CP2 individual report`
+  - `feat(team): initialize group report structure and finalize CP3 convergence`
 
 **Điều mình học được từ phần nhóm:**
 
--
+- **Tư duy Problem-first đè bẹp Solution-first:** Trước khi làm lab, tôi thường có xu hướng nghĩ ngay đến việc xây AI Agent tự động hóa toàn bộ. Quá trình làm việc cùng nhóm và phản biện qua cây OST đã chứng minh rằng: Một quy trình tốt bắt đầu từ việc chỉ ra đúng bước nghẽn (bottleneck) và dùng giải pháp đơn giản nhất đủ tốt (Rule kết hợp Workflow nhỏ gọn), chứ không phải lạm dụng AI phức tạp.
+- **Sức mạnh của phản biện đa chiều:** Nhờ câu hỏi chất vấn sâu sắc của bạn Bình về rủi ro "báo nhầm" (False Positive), tôi nhận ra rằng trong môi trường giáo dục sát deadline, tính chính xác và sự kiểm soát của con người (Human-in-the-loop) quan trọng hơn nhiều so với việc tự động hóa hoàn toàn.
+- **Kỹ năng điều phối Leader:** Học cách dung hòa quan điểm khác biệt, lắng nghe và tích hợp ý tưởng của các thành viên (như việc ghép bài của Bình vào bài của mình) để toàn đội có chung một mục tiêu và sở hữu chung sản phẩm (shared ownership).
 
 ### LeThanhTung-2A202603819
 
