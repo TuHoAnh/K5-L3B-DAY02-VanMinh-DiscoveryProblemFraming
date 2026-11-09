@@ -1,75 +1,66 @@
 # Báo cáo cá nhân — Lê Thanh Tùng — 2A202603819
 
-> **Bản cá nhân cập nhật từng phần — ngày 09/11/2026.** Đã chuẩn bị bảng scan, 3 Problem Card, 3 quy trình nháp và nguồn tham khảo. Học viên xác nhận **nhóm chưa họp**; CP3–CP6 và reflection CP7 sẽ bổ sung sau hoạt động nhóm. Đây chưa phải bài nộp hoàn tất.
->
-> Năm vấn đề do học viên cung cấp; trợ lý hỗ trợ biên tập, phản biện và tìm nguồn. Số liệu công khai trong [memo nguồn](../assets/cp1-2-evidence-research.md) là tham khảo bên ngoài, không phải số đo hoặc phỏng vấn của học viên. Các ô **[CẦN ĐO]** và **[HỌC VIÊN TỰ ĐIỀN]** thể hiện thông tin chưa có; các target ghi là **đề xuất** chưa phải kết quả đạt được.
-
-| Phần | Đã chuẩn bị | Còn bổ sung |
-|---|---|---|
-| CP1 | 5 vấn đề dạng Job Story, đủ 4 lăng kính, có nguồn tham khảo | Dấu hiệu và số đo trong bối cảnh thực tế của học viên |
-| CP2 | 3 card, 3 sơ đồ, phương án không dùng AI và phản biện của trợ lý | Xác nhận thứ tự ưu tiên, quy trình và số phút từng bước |
-| Nhật ký dùng AI | Ghi quá trình cung cấp ý tưởng, biên tập và tìm nguồn | Những lần sử dụng tiếp theo và nhận định riêng của học viên |
-| CP3–CP6 | Chưa thực hiện: nhóm chưa họp | Pitch, phản biện giữa thành viên, lựa chọn và kết quả làm nhóm |
-| CP7 | Giữ các câu hỏi theo mẫu | Reflection do học viên tự viết và giải thích bài nhóm |
+> Cập nhật ngày 09/11/2026: phần này gồm 5 vấn đề tôi đưa ra, 3 Problem Card để chuẩn bị trao đổi và nguồn tham khảo. Nhóm chưa họp nên nhật ký tham gia nhóm và reflection sẽ bổ sung sau.
 
 ## 1. Thông tin học viên
 
 - Họ tên: Lê Thanh Tùng.
 - MSSV: 2A202603819.
-- Tên nhóm: Văn Minh — theo tên repo, cần đối chiếu thông tin nhóm.
+- Tên nhóm: Văn Minh — theo tên repo.
 - Link repo nhóm: https://github.com/TuHoAnh/K5-L3B-DAY02-VanMinh-DiscoveryProblemFraming.
-- Phạm vi cập nhật lần này: CP1, CP2 và nhật ký sử dụng trợ lý trong quá trình chuẩn bị. Hoạt động nhóm và reflection được bổ sung sau khi thực hiện.
 
 ## 2. Scan problem (CP1)
 
-Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
+Tôi đưa ra 5 vấn đề liên quan đến học tập trực tuyến, đào tạo, lập trình và làm việc nhóm. Tôi muốn làm rõ ai gặp khó khăn, nghẽn ở bước nào và có thể đo bằng gì trước khi nghĩ đến cách giải quyết.
 
-| # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu và nguồn công khai đã tìm |
+Các con số dưới đây lấy từ nguồn công khai để tham khảo. Tôi chưa có số đo trong từng bối cảnh cụ thể; thông số sản phẩm hoặc kết quả của một nghiên cứu không thay cho số liệu của cộng đồng hay dự án đang xét.
+
+| # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu và nguồn tham khảo |
 |---:|---|---|---|---|
-| 1 | Pain từ người khác | **Nghi vấn gian lận thời gian học.** Khi quản lý một cộng đồng có bảng xếp hạng giờ học và nhận báo cáo về phiên học bị treo máy, tôi muốn xác minh phiên bị phản ánh theo tiêu chí nhất quán, để bảo vệ sự công bằng và tránh kết luận nhầm về thành viên. | Chính: quản trị viên cộng đồng. Liên quan: thành viên học tập và người bị báo cáo. | [Study Together FAQ, điều 18](https://www.studytogether.com/faq) có quy định chống farming; tính năng check-in mục tiêu nhắc sau **2 giờ**, chuyển AFK nếu không trả lời trong **10 phút**, nhưng không áp dụng phòng camera/màn hình. Đây là cơ chế, **chưa có tỷ lệ gian lận hoặc giờ xử lý report**. Cần kiểm thêm report/tuần, phút xử lý/report và số quyết định bị sửa sau khiếu nại. |
-| 2 | Tốn thời gian; Cần đọc, tổng hợp nhiều thông tin | **Soạn đề từ tài liệu mới.** Khi nhận một tài liệu nghiệp vụ hoặc bài giảng mới, tôi muốn hoàn thành bộ 50 câu hỏi có đáp án, căn cứ và mức độ khó phù hợp, để đánh giá đúng nội dung người học cần nắm và phát hành bài kiểm tra kịp thời. | Giảng viên hoặc chuyên viên đào tạo phụ trách biên soạn đề. | [Nghiên cứu PAFMJ, công bố 2026](https://www.pafmj.org/PAFMJ/article/view/12930): hai giảng viên tạo **50 câu trong 205 phút**, bộ ChatGPT mất **25 phút**; **100 sinh viên y** làm hai bộ. Thời gian này thuộc khâu tạo câu hỏi trong nghiên cứu y khoa, **không phải toàn quy trình bộ đề được duyệt** hoặc baseline của học viên. |
-| 3 | Tốn thời gian; Cần đọc, tổng hợp nhiều thông tin | **Kẹt khi xử lý lỗi lập trình.** Khi tự làm dự án vào ban đêm và gặp một lỗi logic có thể tái hiện nhưng chưa hiểu nguyên nhân, tôi muốn khoanh vùng được nguyên nhân trong ngữ cảnh mã hiện tại, để tiếp tục tính năng và kiểm tra được rằng lỗi đã được sửa. | Lập trình viên độc lập, sinh viên CNTT đang tự học hoặc làm dự án. | [Stack Overflow Survey 2022](https://survey.stackoverflow.co/2022/#professional-developers-productivity-impacts): **36.198** người trả lời mục này; khoảng **62%** dành trên **30 phút/ngày** tìm câu trả lời/lời giải. Tính cả tự tìm, hỏi và chờ đồng nghiệp; **không riêng debug, sinh viên hoặc ban đêm**. Chưa có tỷ lệ bỏ dở tính năng do lỗi từ nguồn này. |
-| 4 | Pain từ người khác; Tốn thời gian | **Phát hiện muộn sự cố VPS.** Khi dịch vụ chạy trên VPS bị chậm hoặc gián đoạn vào giờ cao điểm, tôi muốn biết dấu hiệu bất thường và phạm vi ảnh hưởng sớm, để xử lý trước khi phải chờ người dùng nhắn báo. | Chính: người vận hành dự án/cộng đồng nhỏ. Liên quan: người dùng web hoặc bot. | [Cloudflare postmortem 02/07/2019](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/): sự cố cạn CPU gây gián đoạn **27 phút**, cảnh báo tự động đầu tiên sau **3 phút** kể từ triển khai. Đây là case hệ thống lớn, **không phải số trung bình VPS nhỏ**; cũng phản bác nhận định mọi hệ thống đều phải đợi người dùng báo. Chưa có downtime/latency của dự án học viên. |
-| 5 | Lặp lại; Cần đọc, tổng hợp nhiều thông tin | **Trôi thông tin và lệch tiến độ nhóm.** Khi tổng hợp tiến độ một dự án mà giao việc và thay đổi diễn ra qua nhóm chat, tôi muốn xác định đúng người phụ trách, hạn chót và trạng thái đã được xác nhận của từng việc, để tránh bỏ sót, làm trùng và cập nhật sai tiến độ. | Chính: trưởng nhóm. Liên quan: thành viên dự án sinh viên hoặc nhóm khởi nghiệp nhỏ. | [Asana Anatomy of Work 2022](https://investors.asana.com/node/6631/pdf): GWI khảo sát **10.624 lao động tri thức tại 7 quốc gia**; **58%** ngày làm việc dành cho điều phối. Phạm vi rộng hơn hỏi tiến độ qua chat; **không thể coi toàn bộ là lãng phí hoặc gán cho nhóm sinh viên**. Phút cập nhật/tuần và tỷ lệ task trễ của nhóm cụ thể chưa đo. |
+| 1 | Pain từ người khác | **Gian lận thời gian trong cộng đồng học tập.** Khi quản lý một cộng đồng có xếp hạng giờ học và nhận báo cáo treo máy, tôi muốn xác minh phiên bị phản ánh theo nội quy, để giữ công bằng cho người học thật và tránh xử lý nhầm. | Quản trị viên và thành viên cộng đồng. | [Study Together](https://www.studytogether.com/faq) có quy định chống farming. Tính năng check-in mục tiêu nhắc sau **2 giờ**, chuyển AFK nếu không trả lời trong **10 phút**, nhưng không áp dụng cho phòng camera/màn hình. Nguồn này cho thấy đã có quy định xử lý vấn đề, chưa cho biết tỷ lệ vi phạm hay số giờ quản trị viên phải kiểm tra. |
+| 2 | Tốn thời gian; Cần đọc, tổng hợp nhiều thông tin | **Tốn thời gian tạo đề kiểm tra.** Khi có tài liệu nghiệp vụ hoặc bài giảng mới, tôi muốn soạn được bộ 50 câu hỏi có đáp án và độ khó phù hợp, để đánh giá đúng nội dung người học cần nắm và phát hành kịp thời. | Giảng viên, chuyên viên đào tạo nội bộ. | [Nghiên cứu PAFMJ, công bố 2026](https://www.pafmj.org/PAFMJ/article/view/12930) ghi nhận hai giảng viên tạo **50 câu trong 205 phút**, bộ ChatGPT mất **25 phút**; **100 sinh viên y** làm hai bộ. Đây là thời gian tạo câu hỏi trong một nghiên cứu y khoa, chưa tính quy trình duyệt bộ đề để phát hành. |
+| 3 | Tốn thời gian; Cần đọc, tổng hợp nhiều thông tin | **Kẹt khi fix bug ban đêm.** Khi tự học hoặc làm dự án vào ban đêm và gặp lỗi logic chưa hiểu nguyên nhân, tôi muốn khoanh vùng lỗi trong ngữ cảnh code hiện tại, để tiếp tục tính năng và kiểm tra được bản sửa. | Lập trình viên độc lập, sinh viên CNTT. | [Stack Overflow Survey 2022](https://survey.stackoverflow.co/2022/#professional-developers-productivity-impacts): mục này có **36.198** phản hồi; khoảng **62%** dành trên **30 phút/ngày** tìm câu trả lời hoặc lời giải. Số này tính cả hỏi và chờ đồng nghiệp, không chỉ debug và không riêng ban đêm. |
+| 4 | Pain từ người khác; Tốn thời gian | **VPS gặp sự cố nhưng phát hiện muộn.** Khi web hoặc bot chạy trên VPS bị chậm hay gián đoạn, tôi muốn nhận biết dấu hiệu bất thường sớm, để bắt đầu xử lý trước khi phải chờ người dùng nhắn báo. | Người vận hành dự án và người dùng dịch vụ. | [Cloudflare, sự cố ngày 02/07/2019](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/): cạn CPU gây gián đoạn **27 phút**, cảnh báo tự động đầu tiên sau **3 phút** từ lúc triển khai. Đây là hệ thống lớn, không phải baseline cho VPS nhỏ; case này cũng cho thấy có thể phát hiện bằng giám sát tự động. |
+| 5 | Lặp lại; Cần đọc, tổng hợp nhiều thông tin | **Trôi thông tin và lệch tiến độ nhóm.** Khi việc giao task và cập nhật tiến độ nằm trong nhóm chat, tôi muốn biết rõ ai làm gì, hạn nào và đang đến đâu, để tránh bỏ sót, làm trùng hoặc hiểu sai công việc. | Trưởng nhóm và các thành viên dự án. | [Asana Anatomy of Work 2022](https://investors.asana.com/node/6631/pdf): GWI khảo sát **10.624 lao động tri thức tại 7 quốc gia**; **58%** ngày làm việc dành cho điều phối. Phạm vi này rộng hơn hỏi tiến độ qua chat, không thể coi toàn bộ là lãng phí hay áp thẳng cho nhóm sinh viên. |
 
-**Nguồn ý tưởng và cách dùng trợ lý:** học viên cung cấp đủ 5 mô tả trước khi yêu cầu biên tập. Giữ cả 5; trợ lý chuyển thành Job Story, tách bước nghẽn và đề xuất phép đo. Học viên cần đọc lại để sửa những chỗ chưa khớp quy trình thật. Chưa có phỏng vấn hoặc survey nào được ghi nhận trong bản này.
+Một số điểm cần kiểm tra thêm:
 
-**Các điểm đã được trợ lý yêu cầu làm rõ:**
-
-- Vấn đề 1: camera bật hoặc ít chuyển động không đủ chứng minh có hay không học; cần tiêu chí xác minh và quyền giải trình. Số report phản ánh cả hành vi báo cáo, không trực tiếp là số vụ gian lận.
-- Vấn đề 2: thay khẳng định chung “100% bằng sức người” bằng mô tả quy trình đang được học viên nêu; cần kiểm tra người soạn đã có ngân hàng câu hỏi hoặc công cụ nào chưa.
-- Vấn đề 3: “lỗi lạ” và “kẹt tư duy” còn rộng; tập trung một lỗi logic tái hiện được, tính cả thời gian kiểm chứng bản sửa. Ban đêm là bối cảnh cần kiểm tra, chưa được khẳng định là nguyên nhân.
-- Vấn đề 4: tách phát hiện muộn, chẩn đoán và khôi phục; CPU/RAM cao là tín hiệu, chưa mặc định là nguyên nhân duy nhất hoặc là điều có thể dự báo trước.
-- Vấn đề 5: tách thời gian làm việc chủ động của trưởng nhóm khỏi thời gian chờ thành viên trả lời; kiểm tra xem cập nhật có bị thiếu vì quy ước làm việc hay vì thông tin khó tổng hợp.
+- **Giờ học:** bật camera hoặc ít chuyển động chưa đủ để kết luận đang học hay gian lận. Cần biết cộng đồng quy định thế nào và quản trị viên xác minh report ra sao.
+- **Tạo đề:** cần xác định khâu tốn nhất là đọc tài liệu, viết câu hỏi hay rà sửa; đồng thời kiểm tra người soạn đã dùng ngân hàng câu hỏi chưa.
+- **Debug:** nên chọn một lỗi tái hiện được để theo dõi. Chưa có bằng chứng rằng ban đêm là nguyên nhân gây kẹt hoặc câu trả lời trên mạng luôn không phù hợp.
+- **VPS:** cần tách thời gian phát hiện khỏi thời gian chẩn đoán và khôi phục. CPU/RAM cao chưa chắc là nguyên nhân duy nhất.
+- **Tiến độ nhóm:** cần phân biệt thông tin khó tổng hợp với việc thành viên chưa cập nhật. Nếu đầu vào còn thiếu thì thêm công cụ chưa chắc giúp được.
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
-### Bảng chọn top 3 — đề xuất của trợ lý, chờ học viên xác nhận
+### Ba vấn đề chuẩn bị để trao đổi
 
-| Rank | Problem | Vì sao đưa vào bản nháp | Điều còn chưa chắc |
+Đây là danh sách tạm cho CP2, chưa phải lựa chọn chung của nhóm.
+
+| Thứ tự | Vấn đề | Lý do đưa vào | Điều còn chưa rõ |
 |---:|---|---|---|
-| 1 | #2 — Soạn bộ 50 câu hỏi từ tài liệu mới | Đầu vào và đầu ra xác định được; có thể đo cả thời gian lẫn chất lượng; so sánh được ngân hàng câu hỏi, template và hỗ trợ soạn nháp. | Khâu tốn nhất là đọc tài liệu, viết câu hỏi hay duyệt đáp án? Học viên có tiếp cận được người đang soạn đề thật không? |
-| 2 | #5 — Tổng hợp tiến độ từ nhóm chat | Có actor và các điểm chuyển giao rõ; có thể đối chiếu tin nhắn với danh sách công việc; phương án đổi quy ước cập nhật có thể đủ. | Nguồn gốc trễ hạn có thật là trôi thông tin hay do quá tải/phụ thuộc công việc? Thành viên có cập nhật trạng thái không? |
-| 3 | #4 — Phát hiện muộn sự cố VPS | Có timeline và chỉ số hệ thống để kiểm; giúp so sánh công bằng phương án Rule với các mức phức tạp hơn. | Có giữ log và kiểm tra uptime không? Chưa xác nhận nguyên nhân CPU/RAM hoặc khả năng cảnh báo sớm. |
+| 1 | #2 — Soạn bộ đề từ tài liệu mới | Có đầu vào là tài liệu và đầu ra là bộ câu hỏi; có thể kiểm cả thời gian lẫn chất lượng. | Bước nào thực sự tốn nhất? Việc sửa và duyệt câu hỏi mất bao lâu? |
+| 2 | #5 — Tổng hợp tiến độ qua chat | Có thể lần theo tin nhắn, task và các lần phải hỏi lại để tìm chỗ nghẽn. | Trễ việc do thông tin bị trôi hay do quá tải, phụ thuộc công việc khác? |
+| 3 | #4 — Phát hiện muộn sự cố VPS | Có thể đối chiếu thời điểm lỗi, cảnh báo và lúc bắt đầu xử lý qua log. | Dự án đã có monitoring chưa? Có dữ liệu trước lúc người dùng báo không? |
 
-#1 và #3 vẫn nằm trong bảng scan. Chưa đưa vào top 3 vì #1 cần làm rõ cách xác minh công bằng, còn #3 cần chọn một loại lỗi và timeline cụ thể trước khi vẽ quy trình đáng tin cậy. Thứ tự này có thể đổi theo bằng chứng, chưa phải lựa chọn của nhóm.
+Hai ý còn lại vẫn được giữ trong bảng scan. Với giờ học, cần làm rõ tiêu chí xác minh công bằng. Với debug, cần thu hẹp vào một loại lỗi và một lần xử lý cụ thể.
 
-### Problem Card #1 — Soạn bộ đề kiểm tra từ tài liệu mới
+### Problem Card #1 — Tạo đề kiểm tra từ tài liệu mới
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi nhận tài liệu nghiệp vụ hoặc bài giảng mới, tôi muốn hoàn thành 50 câu hỏi có đáp án, căn cứ và mức độ khó phù hợp, để kiểm tra đúng nội dung cần học và phát hành kịp thời. |
-| Actor | Người phụ trách soạn đề; người có chuyên môn rà nội dung và đáp án. Cần xác nhận đây là một người hay hai vai trò khác nhau. |
-| Thời điểm / bối cảnh | Tài liệu mới được chốt; cần một bộ 50 câu hỏi trắc nghiệm trước một mốc đào tạo. Tài liệu nguồn và mục tiêu học tập phải được xác nhận trước khi soạn. |
-| Quy trình hiện tại (3–7 bước) | 1. Nhận tài liệu, mục tiêu và hạn → 2. Đọc, chia nội dung cần đánh giá → 3. Viết câu hỏi, phương án và đáp án → 4. Gán mức khó, rà trùng ý → 5. Kiểm căn cứ và sửa câu chưa đạt → 6. Định dạng, duyệt và phát hành. Các bước là bản diễn giải từ mô tả học viên, cần đối chiếu người thực hiện. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: bước 3, chuyển nội dung thành câu hỏi phân biệt được mức độ hiểu, có phương án nhiễu hợp lý. Thời gian bước 3: **[CẦN ĐO: __ phút/50 câu được duyệt]**. Nếu bước 5 mới tốn nhất, phải đổi bottleneck. |
-| Impact (nếu không giải thì sao) | Phát hành đề muộn hoặc tăng công rà sửa; câu hỏi có thể lặp ý, thiếu phủ nội dung hoặc sai đáp án. Chưa định lượng tổn thất của học viên/đơn vị cụ thể. |
-| Success metric (baseline → target) | Gọi T50 là tổng phút lao động để có 50 câu **được duyệt**, gồm soạn và sửa: baseline **[CẦN ĐO]** → target **đề xuất ≤70% T50** trên tài liệu tương đương. Đo theo từng bước và cùng tiêu chí duyệt; ghi riêng thời gian chờ. Chất lượng: **đề xuất 0 câu sai đáp án hoặc không có căn cứ** sau duyệt, độ phủ theo ma trận mục tiêu đã được người phụ trách chốt. Chưa có kết quả thử nghiệm. |
-| Phương án không dùng AI | Ma trận nội dung × mục tiêu × độ khó, mẫu câu hỏi, checklist rà đáp án và ngân hàng câu hỏi đã duyệt. Kiểm tra phương án này trước để biết còn phần việc nào thực sự cần hỗ trợ. |
-| Giả thuyết về AI (nếu có) | Có thể hỗ trợ tạo nháp từ tài liệu được cung cấp và chỉ rõ đoạn căn cứ. Người có chuyên môn kiểm câu hỏi, đáp án, độ khó và duyệt trước phát hành. Chưa kiểm chứng rằng cách này giảm tổng thời gian sau khi tính công sửa. |
-| Cảm nhận nhanh | **Chưa biết**; có thể No AI hoặc Workflow nếu khâu soạn nháp vẫn nghẽn sau khi đã dùng template/ngân hàng câu hỏi. Không có cơ sở chọn Agent. |
+| Job Story | Khi có tài liệu nghiệp vụ hoặc bài giảng mới, tôi muốn soạn được 50 câu hỏi có đáp án và độ khó phù hợp, để đánh giá đúng nội dung cần học và phát hành kịp thời. |
+| Actor | Giảng viên hoặc chuyên viên đào tạo phụ trách soạn đề; người có chuyên môn duyệt nội dung. |
+| Thời điểm / bối cảnh | Tài liệu và mục tiêu học tập đã có, cần hoàn thành một bộ đề trước buổi đào tạo. |
+| Quy trình hiện tại (3–7 bước) | Nhận tài liệu → Đọc, chọn nội dung cần kiểm tra → Viết câu hỏi và đáp án → Rà độ khó, trùng ý → Kiểm căn cứ và sửa → Duyệt, phát hành. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến ở bước viết câu hỏi: phải chuyển ý chính thành câu hỏi có phương án nhiễu hợp lý. **Chưa đo số phút/bộ đề**; cần kiểm tra xem khâu rà sửa có tốn hơn không. |
+| Impact (nếu không giải thì sao) | Đề phát hành muộn, mất thêm công sửa, hoặc có câu hỏi nông, lặp ý, sai đáp án. |
+| Success metric (baseline → target) | Gọi T50 là tổng phút để có **50 câu được duyệt**, gồm cả sửa. Baseline chưa đo; mục tiêu đề xuất là **≤70% T50** trên tài liệu tương đương. Ghi thời gian từng bước và thời gian chờ riêng; kiểm cả đáp án, căn cứ và độ phủ, không chỉ đếm số câu tạo ra. Sau duyệt, mục tiêu là **0 câu sai đáp án hoặc không có căn cứ**. |
+| Phương án không dùng AI | Dùng ma trận nội dung × mục tiêu × độ khó, mẫu câu hỏi, checklist và ngân hàng câu hỏi đã duyệt. |
+| Giả thuyết về AI (nếu có) | Hỗ trợ tạo nháp từ tài liệu, kèm đoạn làm căn cứ. Người có chuyên môn vẫn kiểm và duyệt. Cần tính cả công sửa để biết có tiết kiệm thời gian thật không. |
+| Cảm nhận nhanh | Chưa chốt. Thử template/ngân hàng câu hỏi trước; cân nhắc Workflow nếu khâu soạn nháp vẫn nghẽn. |
 
-**Quy trình nháp hiện tại:** số phút từng bước chưa được đo; các ô trống không phải số liệu tham khảo từ nghiên cứu.
+Quy trình nháp; số phút từng bước sẽ bổ sung sau khi đo:
 
 ```mermaid
 flowchart TD
@@ -81,24 +72,24 @@ flowchart TD
   style C fill:#ffe4e6,stroke:#be123c
 ```
 
-Tổng phút lao động: **T50 = t1 + t2 + t3 + t4 + t5 + t6**, cộng cả các vòng sửa lại. Thời gian từ lúc nhận tài liệu đến lúc phát hành được ghi riêng để không nhầm với công lao động.
+Tổng thời gian chủ động T50 gồm 6 bước và các vòng sửa lại. Thời gian chờ duyệt ghi riêng. Mốc 205 phút trong nghiên cứu ở CP1 chỉ dùng tham khảo khâu tạo câu hỏi.
 
-### Problem Card #2 — Tổng hợp tiến độ nhóm từ thông tin trong chat
+### Problem Card #2 — Trôi thông tin và lệch tiến độ nhóm
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi cần cập nhật tiến độ mà giao việc và thay đổi diễn ra trong nhóm chat, tôi muốn xác định đúng người phụ trách, hạn chót và trạng thái được xác nhận của từng việc, để tránh bỏ sót, làm trùng và báo cáo sai tiến độ. |
-| Actor | Trưởng nhóm tổng hợp; thành viên xác nhận trạng thái và thông tin công việc của mình. |
-| Thời điểm / bối cảnh | Một lần chốt tiến độ định kỳ của một nhóm dự án dùng chat để giao và đổi việc. Tần suất, quy mô nhóm và công cụ thực tế: **[HỌC VIÊN TỰ ĐIỀN]**. |
-| Quy trình hiện tại (3–7 bước) | 1. Đọc lại tin nhắn/tài liệu → 2. Lập danh sách việc và phát hiện thông tin thiếu → 3. Hỏi thành viên để xác nhận → 4. Đối chiếu các cập nhật mâu thuẫn, sửa bảng → 5. Gửi bản tổng hợp và nhận xác nhận. Cần kiểm xem nhóm thực tế có làm đủ các bước này không. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: bước 3, xác nhận lại owner/deadline/trạng thái do thông tin thiếu hoặc thay đổi trong chat. Công nhắn và đối chiếu: **[CẦN ĐO: __ phút/lần chốt]**; thời gian chờ phản hồi W ghi riêng. Nếu phần lớn công nằm ở bước 1 hoặc 4, đổi bottleneck theo số đo. |
-| Impact (nếu không giải thì sao) | Tăng công điều phối; thành viên có thể bỏ sót hoặc làm trùng việc, trưởng nhóm cập nhật sai tiến độ. Tác động đến trễ hạn cần kiểm bằng từng task, tránh quy tất cả task trễ cho nhóm chat. |
-| Success metric (baseline → target) | Tổng phút chủ động gom/xác nhận/cập nhật mỗi tuần T: baseline **[CẦN ĐO]** → target **đề xuất ≤70% T** qua một giai đoạn thử 2 tuần; ghi riêng W. Chất lượng: **đề xuất 100% task đến hạn có owner và deadline được xác nhận**, số trạng thái ghi sai sau khi thành viên kiểm không tăng. Ghi thêm lượt hỏi lại/task. |
-| Phương án không dùng AI | Một bảng công việc chung; quy ước mỗi task có owner, deadline và một nơi cập nhật; mẫu báo cáo ngắn và giờ chốt. Thử việc này trước vì thông tin chưa được thành viên cung cấp thì công cụ tổng hợp cũng không thể biết. |
-| Giả thuyết về AI (nếu có) | Nếu dữ liệu đầu vào đã có nhưng việc đọc và đối chiếu vẫn tốn thời gian, có thể tạo bản nháp cập nhật kèm đường dẫn tin nhắn gốc. Thành viên xác nhận; không suy diễn “xong việc” từ một câu chat mơ hồ hoặc tự đổi deadline. |
-| Cảm nhận nhanh | **No AI trước**; cân nhắc Workflow nếu bằng chứng cho thấy còn tốn công đọc/tổng hợp sau khi thống nhất quy ước. |
+| Job Story | Khi giao task và cập nhật tiến độ qua chat, tôi muốn biết rõ ai phụ trách, hạn nào và trạng thái đã được xác nhận, để tránh bỏ sót, làm trùng và báo cáo sai tiến độ. |
+| Actor | Trưởng nhóm tổng hợp; thành viên xác nhận công việc của mình. |
+| Thời điểm / bối cảnh | Một lần chốt tiến độ của nhóm dự án dùng chat để giao việc và thay đổi yêu cầu. Quy mô, tần suất và công cụ cụ thể chưa được ghi nhận. |
+| Quy trình hiện tại (3–7 bước) | Đọc lại chat/tài liệu → Lập danh sách việc và thông tin thiếu → Hỏi từng người → Đối chiếu, sửa bảng tiến độ → Gửi tổng hợp và nhận xác nhận. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến ở bước hỏi lại để xác nhận người phụ trách, deadline và trạng thái. **Chưa đo phút/lần chốt**; thời gian chờ trả lời W được ghi riêng. |
+| Impact (nếu không giải thì sao) | Trưởng nhóm mất công nhắc và gom thông tin; thành viên có thể làm trùng hoặc bỏ sót việc. Cần kiểm từng task trễ để xác định phần thực sự do thiếu thông tin. |
+| Success metric (baseline → target) | Tổng phút chủ động cập nhật mỗi tuần T: chưa đo → mục tiêu đề xuất **≤70% T** trong đợt thử 2 tuần. Theo dõi lượt hỏi lại/task; mục tiêu **100% task đến hạn có người phụ trách và deadline được xác nhận**, số trạng thái ghi sai sau kiểm tra không tăng. |
+| Phương án không dùng AI | Một bảng task chung, quy định rõ nơi cập nhật, người phụ trách và hạn chót; chốt tiến độ theo mẫu ngắn. |
+| Giả thuyết về AI (nếu có) | Nếu thông tin đã có nhưng đọc và tổng hợp vẫn lâu, có thể tạo nháp cập nhật kèm link tin nhắn gốc. Thành viên xác nhận trước khi dùng; không tự suy diễn đã xong việc hoặc tự đổi deadline. |
+| Cảm nhận nhanh | No AI trước. Chỉ cân nhắc Workflow nếu đã thống nhất cách cập nhật mà vẫn mất nhiều công tổng hợp. |
 
-**Quy trình nháp hiện tại:**
+Quy trình nháp:
 
 ```mermaid
 flowchart TD
@@ -109,26 +100,24 @@ flowchart TD
   style C fill:#ffe4e6,stroke:#be123c
 ```
 
-Tổng công chủ động mỗi lần chốt: **t1 + t2 + t3 + t4 + t5**. W là thời gian chờ thành viên, không cộng W như thể trưởng nhóm làm việc liên tục trong khoảng đó. Khi quy đổi theo tuần cần dùng tần suất chốt thực tế.
+Công chủ động mỗi lần chốt là tổng 5 bước. W là thời gian chờ phản hồi, không tính toàn bộ W thành giờ làm việc của trưởng nhóm. Muốn quy đổi theo tuần cần biết tần suất thực tế.
 
-### Problem Card #3 — Phát hiện muộn sự cố trên VPS
+### Problem Card #3 — Phát hiện muộn sự cố VPS
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi dịch vụ trên VPS chậm hoặc gián đoạn vào giờ cao điểm, tôi muốn nhận biết dấu hiệu và phạm vi ảnh hưởng sớm, để bắt đầu xử lý trước khi phải chờ người dùng nhắn báo. |
-| Actor | Người vận hành dịch vụ/dự án nhỏ; người dùng là bên chịu chậm hoặc không truy cập được. |
-| Thời điểm / bối cảnh | Một dịch vụ đang chạy trên VPS giới hạn tài nguyên. Cấu hình, loại dịch vụ và thời điểm cao điểm: **[HỌC VIÊN TỰ ĐIỀN]**. Chưa kết luận tài nguyên thiếu là nguyên nhân. |
-| Quy trình hiện tại (3–7 bước) | 1. Dịch vụ phát sinh lỗi/chậm → 2. Người dùng phản ánh, người vận hành nhận biết → 3. Kiểm tra log và tài nguyên → 4. Xác định nguyên nhân, chọn cách xử lý → 5. Thực hiện xử lý → 6. Kiểm tra phục hồi. “Khởi động lại” chỉ là một cách xử lý trong mô tả ban đầu, không phải bước luôn đúng. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: khoảng từ bước 1 đến lúc người vận hành xác nhận ở bước 2. **D = thời điểm xác nhận sự cố − thời điểm đầu tiên log/kiểm tra uptime ghi nhận ảnh hưởng**, baseline **[CẦN ĐO: __ phút/sự cố]**. Nếu không có log trước lúc người dùng báo, D chưa tính được đáng tin cậy. |
-| Impact (nếu không giải thì sao) | Chậm bắt đầu xử lý và kéo dài ảnh hưởng tới người dùng. Downtime là kết quả của cả phát hiện và khôi phục, nên không được coi toàn bộ downtime là thời gian chờ phát hiện. |
-| Success metric (baseline → target) | D: baseline **[CẦN ĐO]** → target **đề xuất ≤5 phút** trong giai đoạn thử có log/kiểm tra uptime và người nhận cảnh báo. Theo dõi thêm tổng phút gián đoạn/30 ngày, latency p95 ở cùng khung giờ và số cảnh báo không cần hành động/ngày. Mục tiêu kiểm soát nhiễu **đề xuất ≤1 cảnh báo không cần hành động/ngày**; chưa có số đo thực tế. |
-| Phương án không dùng AI | Kiểm tra uptime từ bên ngoài, thu thập CPU/RAM/disk và lỗi ứng dụng; đặt ngưỡng cùng điều kiện kéo dài, gửi cảnh báo tới người phụ trách; có checklist kiểm tra sự cố. Xác nhận hệ thống đã có những thứ gì trước khi đề xuất thêm. |
-| Giả thuyết về AI (nếu có) | Chỉ cân nhắc hỗ trợ đọc/tóm tắt log khi bước chẩn đoán được chứng minh là nghẽn. Cảnh báo tài nguyên và uptime chưa cần mô hình ngôn ngữ. Chưa có dữ liệu để đề xuất dự báo tải, tự nâng cấu hình hoặc tự khởi động lại. |
-| Cảm nhận nhanh | **Rule** là mức đáng kiểm tra trước. Không có lý do chọn Agent ở thời điểm này. |
+| Job Story | Khi web hoặc bot chạy trên VPS bị chậm hay gián đoạn, tôi muốn nhận biết dấu hiệu bất thường sớm, để bắt đầu xử lý trước khi phải chờ người dùng nhắn báo. |
+| Actor | Người vận hành dự án; người dùng chịu ảnh hưởng khi dịch vụ chậm hoặc không truy cập được. |
+| Thời điểm / bối cảnh | Dịch vụ trên VPS gặp lỗi hoặc phản hồi chậm vào thời điểm tải tăng. Cấu hình và nguyên nhân thực tế cần kiểm qua log. |
+| Quy trình hiện tại (3–7 bước) | Dịch vụ chậm/lỗi → Người dùng báo, quản trị viên nhận biết → Kiểm log và tài nguyên → Xác định nguyên nhân → Xử lý → Kiểm tra phục hồi. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến ở khoảng chờ nhận biết sự cố. **D = thời điểm quản trị viên xác nhận − thời điểm đầu tiên log/kiểm tra uptime ghi nhận ảnh hưởng**. Baseline chưa đo; nếu thiếu log trước lúc người dùng báo thì chưa tính D đáng tin cậy được. |
+| Impact (nếu không giải thì sao) | Bắt đầu xử lý muộn, kéo dài ảnh hưởng đến người dùng. Cần tách phần chậm phát hiện khỏi thời gian sửa lỗi. |
+| Success metric (baseline → target) | D chưa đo → mục tiêu đề xuất **≤5 phút** khi có giám sát và người nhận cảnh báo. Theo dõi thêm downtime/30 ngày, latency p95 cùng khung giờ và cảnh báo không cần hành động/ngày; mục tiêu thử nghiệm cho chỉ số cuối là **≤1/ngày**. |
+| Phương án không dùng AI | Kiểm tra uptime từ bên ngoài, theo dõi CPU/RAM/disk và lỗi ứng dụng; cảnh báo theo ngưỡng kéo dài tới người phụ trách, kèm checklist xử lý. |
+| Giả thuyết về AI (nếu có) | Có thể hỗ trợ đọc/tóm tắt log nếu khâu chẩn đoán được xác định là nghẽn. Chưa cần dùng cho cảnh báo theo ngưỡng; chưa có căn cứ đề xuất tự nâng cấu hình hoặc tự khởi động lại. |
+| Cảm nhận nhanh | Rule trước: monitoring và cảnh báo có thể đủ cho phần phát hiện. |
 
-Đối chiếu phương án có sẵn: [DigitalOcean Monitoring Quickstart](https://docs.digitalocean.com/products/monitoring/getting-started/quickstart/) mô tả cảnh báo theo ngưỡng với khoảng duy trì **5, 10, 30 phút hoặc 1 giờ**. Đây là thông số cấu hình, không phải cam kết thời gian người vận hành nhận biết. Khi thử target D ≤5 phút cần chọn cửa sổ kiểm tra phù hợp và tính cả độ trễ gửi/nhận cảnh báo.
-
-**Quy trình nháp hiện tại:**
+Quy trình nháp:
 
 ```mermaid
 flowchart TD
@@ -140,93 +129,102 @@ flowchart TD
   style B fill:#ffe4e6,stroke:#be123c
 ```
 
-Thời gian khôi phục quan sát từ sự cố tới khi dịch vụ hoạt động lại gồm D và các bước 3–6. Phải ghi riêng thời gian dịch vụ thực sự không phục vụ được; không mặc định toàn bộ chuỗi kiểm tra đều là downtime.
+Thời gian đến lúc phục hồi gồm cả phát hiện và xử lý. Downtime chỉ tính khoảng dịch vụ không phục vụ được, không mặc định toàn bộ thời gian kiểm tra là downtime.
 
-### Card muốn pitch nhất
+[DigitalOcean Monitoring Quickstart](https://docs.digitalocean.com/products/monitoring/getting-started/quickstart/) có cảnh báo theo ngưỡng với khoảng duy trì **5, 10, 30 phút hoặc 1 giờ**. Để thử mục tiêu D ≤5 phút cần chọn cửa sổ phù hợp và tính cả độ trễ nhận cảnh báo.
 
-- Đề xuất để học viên cân nhắc: Card #1 — soạn đề kiểm tra, vì đầu ra có thể kiểm cụ thể theo số câu được duyệt, độ phủ và thời gian.
-- Card học viên thực sự chọn: **[HỌC VIÊN TỰ ĐIỀN]**.
-- Câu hỏi học viên muốn nhóm phản biện: **[HỌC VIÊN TỰ ĐIỀN sau khi đọc và kiểm lại card]**.
+### Card dự kiến trao đổi trước
 
-### AI đã phản biện card thế nào
+- Card #1 — tạo đề kiểm tra: có đầu ra cụ thể để xem xét cả thời gian lẫn chất lượng.
+- Thứ tự này đang để chuẩn bị, có thể thay đổi sau khi kiểm tra dữ liệu và trao đổi với nhóm.
+- Câu hỏi muốn nhóm phản biện: _Bổ sung khi chuẩn bị pitch._
 
-Đây là phản biện của trợ lý trong quá trình soạn nháp. Cột xác nhận để học viên tự quyết định; không ghi nhận rằng học viên hoặc nhóm đã đồng ý khi chưa có phản hồi.
+### Phản biện bằng AI và điều chỉnh trong bản nháp
 
-| Điểm yếu AI chỉ ra | Học viên đồng ý? | Điều chỉnh trong bản nháp để học viên xem lại |
+| Nhận xét | Điều chỉnh trong bản nháp | Việc cần kiểm tra tiếp |
 |---|---|---|
-| Card #1 chỉ đo tốc độ sẽ khuyến khích làm nhiều câu nông hoặc sai; review có thể xóa hết lợi ích thời gian. | [HỌC VIÊN TỰ ĐIỀN] | Đo tổng công để có 50 câu được duyệt, gồm sửa; thêm căn cứ, đáp án và độ phủ. |
-| Card #2 có thể là vấn đề quy ước cập nhật, không phải thiếu công cụ tổng hợp. | [HỌC VIÊN TỰ ĐIỀN] | Thêm phương án bảng task chung và quy ước cập nhật trước; tách thời gian chờ khỏi công chủ động. |
-| Card #3 đang gộp phát hiện, chẩn đoán và khôi phục; cảnh báo ngưỡng có thể đủ. | [HỌC VIÊN TỰ ĐIỀN] | Đặt D làm metric phát hiện; tách downtime, thêm Rule và chỉ cân nhắc hỗ trợ đọc log nếu còn nghẽn. |
-| Cả 3 card chưa có số đo tại bối cảnh học viên; thống kê bên ngoài không thể trở thành baseline của học viên. | [HỌC VIÊN TỰ ĐIỀN] | Giữ rõ nguồn bên ngoài, target đề xuất và các ô cần đo; chưa kết luận đã kiểm chứng. |
+| Tạo đề nhanh hơn chưa chắc có lợi nếu phải sửa nhiều. | Đo tổng công để có 50 câu được duyệt, thêm kiểm đáp án, căn cứ và độ phủ. | Ghi riêng thời gian soạn và sửa. |
+| Tiến độ nhóm có thể vướng ở cách cập nhật, không phải ở công cụ. | Thêm phương án bảng task chung và quy ước cập nhật; tách công chủ động khỏi thời gian chờ. | Xem thông tin đã có nhưng khó tìm hay chưa được cung cấp. |
+| VPS đang gộp phát hiện với chẩn đoán và khôi phục. | Dùng D cho phần phát hiện, ghi downtime riêng và so sánh phương án Rule. | Kiểm tra log và cảnh báo đang có. |
+| Số liệu bên ngoài chưa phải baseline của các tình huống đang xét. | Giữ nguồn, ghi rõ giới hạn và để phần chưa đo thay vì gán số. | Bổ sung số đo trực tiếp trước khi chốt mục tiêu. |
 
-## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+## 4. Tôi đã tham gia phần nào (bổ sung sau hoạt động nhóm)
 
-**Trạng thái ngày 09/11/2026:** học viên xác nhận nhóm chưa họp. Bảng ghi rõ phần đã chuẩn bị cá nhân và phần chưa diễn ra; phản biện của trợ lý ở mục 3 không được tính là phản biện giữa các thành viên tại CP3.
+Nhóm chưa họp. Phần này sẽ ghi lại đóng góp và các câu hỏi trao đổi ở CP3–CP6 sau khi thực hiện. Hiện tại tôi chuẩn bị CP1–CP2 để đưa ra thảo luận.
 
-| Hoạt động | Việc đã làm / trạng thái | Kết quả / thông tin sẽ cập nhật |
+<details>
+<summary>Khung nhật ký để bổ sung sau buổi nhóm</summary>
+
+Phản biện bằng AI ở CP2 được ghi riêng ở mục 3; các câu hỏi giữa thành viên ở CP3 sẽ ghi tại đây.
+
+| Hoạt động | Trạng thái | Nội dung sẽ bổ sung |
 |---|---|---|
-| Chuẩn bị cá nhân trước CP3 | Cung cấp 5 mô tả vấn đề; yêu cầu trợ lý kiểm đề, biên tập và tìm số liệu công khai. | Bảng scan, 3 card và nguồn tham khảo ở mục 2–3; chưa phải kết quả hội tụ của nhóm. |
-| Pitch Problem Card | Chưa thực hiện. | Sau CP3: ghi card thực sự trình bày và phản hồi nhận được. |
-| Phản biện bài của bạn khác | Chưa thực hiện. | Sau CP3: ghi câu hỏi đã đặt, người nhận theo vai trò và ảnh hưởng cụ thể. |
-| Nhận phản biện từ thành viên | Chưa thực hiện. | Sau CP3: ghi câu hỏi thực tế và điều đã sửa. |
-| Gom cluster / cây OST | Chưa thực hiện. | Bổ sung phần trực tiếp tham gia và liên kết báo cáo nhóm. |
-| Chọn candidate problem | Nhóm chưa chọn. | Bổ sung candidate, lý do và phần đóng góp cá nhân vào quyết định. |
-| Kiểm chứng / research | Đã có memo nguồn do trợ lý hỗ trợ; chưa ghi nhận phỏng vấn/survey hoặc học viên tự mở kiểm nguồn. | Bổ sung hoạt động kiểm chứng thực tế và nguồn học viên đã tự kiểm. |
-| Quy trình nhóm | Chưa thực hiện; các sơ đồ ở mục 3 là quy trình nháp cho từng card. | Sau CP5: liên kết phần quy trình của nhóm và ghi đóng góp. |
-| Problem Statement | Chưa có bản của nhóm. | Sau CP5–CP6: ghi phần tham gia và thay đổi từ v0 sang v1. |
-| Mức can thiệp AI | Chưa có lựa chọn của nhóm. | Sau CP6: ghi lập luận cá nhân và mức được nhóm chốt. |
-| Quyết định | Chưa có quyết định của nhóm. | Sau CP6: ghi Go / Not Yet / No-Go và căn cứ. |
+| Chuẩn bị cá nhân | Đã đưa ra 5 vấn đề; có bản nháp scan, card và nguồn tham khảo. | Các điều chỉnh sau khi kiểm tra thực tế. |
+| Pitch Problem Card | Chưa thực hiện. | Card đã trình bày và phản hồi nhận được. |
+| Phản biện bài của bạn khác | Chưa thực hiện. | Câu hỏi đã đặt và ảnh hưởng tới bài của bạn. |
+| Nhận phản biện từ thành viên | Chưa thực hiện. | Câu hỏi nhận được và điều đã sửa. |
+| Gom cluster / cây OST | Chưa thực hiện. | Phần tham gia và liên kết báo cáo nhóm. |
+| Chọn candidate problem | Nhóm chưa chọn. | Vấn đề được chọn, lý do và phần đóng góp. |
+| Kiểm chứng / research | Có nguồn tham khảo trong memo; chưa phỏng vấn/survey. | Nguồn đã tự kiểm và kết quả hỏi người thật. |
+| Quy trình nhóm | Chưa thực hiện. | Đóng góp ở CP5; các sơ đồ trên mới dùng cho từng card. |
+| Problem Statement | Chưa thực hiện. | Phần tham gia và thay đổi từ v0 sang v1. |
+| Mức can thiệp AI | Chưa chốt trong nhóm. | Mức được chọn và lập luận. |
+| Quyết định | Nhóm chưa quyết định. | Go / Not Yet / No-Go và căn cứ. |
+
+</details>
 
 ## 5. Dùng AI
 
-Bảng này ghi những gì đã diễn ra trong trao đổi chuẩn bị bản nháp; không thay cho nhật ký hoạt động nhóm.
+Tôi đưa ra 5 mô tả ban đầu. Trong phần chuẩn bị, tôi dùng AI để biên tập Job Story, gợi ý thứ tự 3 card, dựng sơ đồ, phản biện và tìm nguồn. Các nội dung này vẫn cần kiểm lại với quy trình thực tế.
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | Sai/hời hợt hoặc giới hạn ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+| Phần | Tôi dùng AI để làm gì? | Hữu ích ở đâu? | Hạn chế hoặc chỗ cần sửa | Điều tôi đã yêu cầu chỉnh / cần làm tiếp |
 |---|---|---|---|---|
-| CP1 Scan | Cung cấp 5 mô tả và nhờ trợ lý kiểm yêu cầu, sắp xếp theo template. | Xác nhận ít nhất 5 vấn đề; chuyển mô tả sang Job Story và gợi ý phép đo. | Chưa có trải nghiệm trực tiếp hoặc log của học viên; bản diễn giải có thể không khớp quy trình thật. | Học viên đã chọn danh sách 5 vấn đề thay cho các gợi ý trước. Phần sửa thêm sau khi xem bản nháp: [HỌC VIÊN TỰ ĐIỀN]. |
-| CP2 Problem Card | Nhờ trợ lý tạm chọn 3 card, vẽ quy trình và phản biện. | Tách tốc độ/chất lượng đề thi; tách chờ/phút chủ động; tách phát hiện/khôi phục VPS. | Thứ tự top 3 và bước nghẽn mới là giả thuyết do trợ lý đề xuất, chưa được học viên xác nhận. | [HỌC VIÊN TỰ ĐIỀN sau khi quyết định giữ hoặc sửa card]. |
-| Research chuẩn bị | Yêu cầu trợ lý tự tìm số liệu công khai cho 5 vấn đề. | Đã có 8 nguồn sơ cấp trong memo; số liệu tham khảo được dẫn trực tiếp ở bảng scan. | Chưa tìm được tỷ lệ gian lận giờ học hoặc baseline VPS nhỏ đáng tin cậy; nguồn bên ngoài không phải số đo của học viên. | [HỌC VIÊN TỰ ĐIỀN sau khi mở nguồn và chọn số nào thực sự dùng]. |
-| CP4 Phỏng vấn | Chưa thực hiện; nhóm chưa họp. | — | Chưa có dữ liệu phỏng vấn hoặc survey. | Bổ sung sau khi hỏi người thật. |
-| CP5–6 | Chưa thực hiện; nhóm chưa họp. | — | Chưa có Problem Statement hoặc quyết định của nhóm. | Bổ sung sau hoạt động nhóm. |
+| CP1 | Sắp xếp 5 mô tả theo mẫu Job Story. | Làm rõ bối cảnh, người gặp vấn đề và kết quả mong muốn. | Có thể diễn giải rộng hơn mô tả ban đầu. | Giữ 5 vấn đề tôi đã đưa ra; đối chiếu lại cách diễn đạt. |
+| CP2 | Gợi ý thứ tự top 3, biên tập card, dựng sơ đồ và phản biện. | Chỉ ra cần đo cả công sửa đề, tách thời gian chờ và thời gian phát hiện lỗi. | Thứ tự ưu tiên và bước nghẽn mới là giả thuyết, chưa qua kiểm chứng. | Kiểm lại quy trình và thứ tự trước khi pitch. |
+| Nguồn tham khảo | Tôi yêu cầu AI tự tìm số liệu công khai. | Có 8 nguồn kèm phạm vi áp dụng trong memo. | Không tìm được tỷ lệ gian lận giờ học hoặc baseline VPS nhỏ phù hợp; số liệu ngoài không phải số đo của tôi. | Mở lại nguồn sẽ dùng và bổ sung dữ liệu trực tiếp. |
+| Biên tập bài | Nhờ sửa cách trình bày sau khi đọc bản đầu. | Có thể rút câu và thống nhất cách xưng hô. | Bản đầu lặp “học viên”, “trợ lý”, đọc giống hướng dẫn hơn bài cá nhân. | Tôi yêu cầu viết tự nhiên hơn, làm rõ ý tưởng ban đầu là của tôi và ghi đúng phần AI hỗ trợ. |
+| CP4–CP6 | Chưa thực hiện phần nhóm. | — | Chưa có phỏng vấn, Problem Statement hay quyết định chung. | Bổ sung sau khi thực hiện. |
 
-## 6. Reflection (CP7)
+## 6. Reflection (CP7 — bổ sung sau hoạt động nhóm)
 
-**Chưa thực hiện vì nhóm chưa họp.** Học viên tự viết bằng trải nghiệm thật sau khi làm việc nhóm: tối thiểu 200 từ cho các câu 6.1–6.6, không tính câu 6.7. Các câu dưới đây giữ theo template để bổ sung; chưa có phần reflection hoàn tất.
+Chưa viết vì nhóm chưa họp. Tôi sẽ trả lời bằng trải nghiệm sau khi làm nhóm, tối thiểu 200 từ cho các câu 6.1–6.6; câu 6.7 ghi riêng.
+
+<details>
+<summary>Các câu hỏi reflection theo mẫu</summary>
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-[HỌC VIÊN TỰ ĐIỀN]
+_Bổ sung sau buổi làm nhóm._
 
 **6.2. Nhóm có lúc nào bị “solution-first” (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-[HỌC VIÊN TỰ ĐIỀN]
+_Bổ sung sau buổi làm nhóm._
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-[HỌC VIÊN TỰ ĐIỀN]
+_Bổ sung sau buổi làm nhóm._
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-[HỌC VIÊN TỰ ĐIỀN]
+_Bổ sung sau buổi làm nhóm._
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-[HỌC VIÊN TỰ ĐIỀN]
+_Bổ sung sau buổi làm nhóm._
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-[HỌC VIÊN TỰ ĐIỀN]
+_Bổ sung sau buổi làm nhóm._
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-[HỌC VIÊN TỰ ĐIỀN sau khi nhóm có quyết định]
+_Bổ sung sau khi nhóm có quyết định._
+
+</details>
 
 ## 7. Tài liệu tham khảo
 
-- Năm mô tả vấn đề do học viên cung cấp trong cuộc trao đổi ngày 09/11/2026.
-- [README — lịch CP1 5+ problems, CP2 top 3](../../README.md).
-- [CHECKPOINTS — sản phẩm và tiêu chí tự kiểm CP1, CP2, CP7](../../CHECKPOINTS.md).
-- [Worksheet — Job Story, Problem Card và quy trình nháp](../../docs/01-worksheet.md).
-- [Rubric — điểm cá nhân và yêu cầu dấu hiệu thật](../../RUBRIC.md).
-- [Rules — cách dùng trợ lý, bằng chứng và reflection](../../RULES.md).
-- [Memo kiểm tra số liệu công khai cho 5 vấn đề](../assets/cp1-2-evidence-research.md).
+- Năm mô tả vấn đề tôi đưa ra ngày 09/11/2026.
+- [README](../../README.md), [CHECKPOINTS](../../CHECKPOINTS.md) và [Worksheet](../../docs/01-worksheet.md).
+- [Rubric](../../RUBRIC.md) và [Rules](../../RULES.md).
+- [Nguồn tham khảo cho 5 vấn đề và giới hạn áp dụng](../assets/cp1-2-evidence-research.md).

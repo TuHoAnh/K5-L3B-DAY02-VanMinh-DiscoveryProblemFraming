@@ -57,16 +57,17 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 ### LeThanhTung-2A202603819
 
-**Trạng thái ngày 09/11/2026:** nhóm chưa họp; đang cập nhật phần chuẩn bị cá nhân. Chưa nhận vai trò hoặc ghi nhận kết quả CP3–CP6.
+**Trạng thái ngày 09/11/2026:** đang chuẩn bị CP1–CP2. Nhóm chưa họp, chưa phân công CP3–CP6.
 
 **Phần việc đã chuẩn bị:**
 
-- CP1: cung cấp 5 mô tả vấn đề về cộng đồng học tập, tạo đề, debug, VPS và tiến độ nhóm.
-- CP2: chuẩn bị báo cáo cá nhân với sự hỗ trợ biên tập, phản biện và tìm nguồn của trợ lý; thứ tự top 3 và các bước nghẽn cần kiểm tra thêm.
+- CP1: đưa ra 5 vấn đề về cộng đồng học tập, tạo đề, debug, VPS và tiến độ nhóm.
+- CP2: chuẩn bị 3 card và 3 quy trình nháp để trao đổi; còn cần kiểm tra thứ tự ưu tiên và thời gian từng bước.
+- Cách dùng AI trong quá trình chuẩn bị được ghi ở mục 5 của báo cáo cá nhân.
 
 **Sản phẩm hiện có:**
 
-- [Báo cáo cá nhân — CP1, CP2 và nhật ký sử dụng trợ lý](report/individual/2A202603819_LeThanhTung.md).
+- [Báo cáo cá nhân — CP1, CP2 và nhật ký dùng AI](report/individual/2A202603819_LeThanhTung.md).
 - [Memo nguồn công khai cho 5 vấn đề](report/assets/cp1-2-evidence-research.md).
 
 **Đóng góp vào phần nhóm và điều học được:**
