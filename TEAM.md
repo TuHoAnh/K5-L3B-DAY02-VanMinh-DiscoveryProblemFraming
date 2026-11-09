@@ -54,3 +54,21 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### LeThanhTung-2A202603819
+
+**Trạng thái ngày 09/11/2026:** nhóm chưa họp; đang cập nhật phần chuẩn bị cá nhân. Chưa nhận vai trò hoặc ghi nhận kết quả CP3–CP6.
+
+**Phần việc đã chuẩn bị:**
+
+- CP1: cung cấp 5 mô tả vấn đề về cộng đồng học tập, tạo đề, debug, VPS và tiến độ nhóm.
+- CP2: chuẩn bị báo cáo cá nhân với sự hỗ trợ biên tập, phản biện và tìm nguồn của trợ lý; thứ tự top 3 và các bước nghẽn cần kiểm tra thêm.
+
+**Sản phẩm hiện có:**
+
+- [Báo cáo cá nhân — CP1, CP2 và nhật ký sử dụng trợ lý](report/individual/2A202603819_LeThanhTung.md).
+- [Memo nguồn công khai cho 5 vấn đề](report/assets/cp1-2-evidence-research.md).
+
+**Đóng góp vào phần nhóm và điều học được:**
+
+- Chưa thực hiện; sẽ bổ sung sau khi nhóm họp và hoàn thành các checkpoint liên quan.
