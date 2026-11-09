@@ -7,7 +7,7 @@
 
 - Tên nhóm:
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
+- Candidate problem được chọn (1 câu): Khi chuẩn bị nộp bài lab môn học, tôi muốn đối chiếu nhanh bài làm và cấu trúc thư mục của mình với toàn bộ rubric/checklist yêu cầu, để đảm bảo không bị trừ điểm oan do thiếu mục hoặc sai quy cách nộp bài.
 - Quyết định cuối: Go / Not Yet / No-Go
 
 ---
@@ -62,7 +62,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | | | | | | | | | |
 | | | | | | | | | |
 
-**Candidate được chọn:**
+**Candidate được chọn:** Candidate #5 — Khi chuẩn bị nộp bài lab môn học, tôi muốn đối chiếu nhanh bài làm và cấu trúc thư mục của mình với toàn bộ rubric/checklist yêu cầu, để đảm bảo không bị trừ điểm oan do thiếu mục hoặc sai quy cách nộp bài.
 
 **Vì sao chọn:**
 
@@ -76,49 +76,65 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 3.1. Assumption Map
 
+Phạm vi kiểm chứng ban đầu: học viên nộp bài lab kỹ thuật/AI có rubric, checklist và quy định cấu trúc thư mục. Chưa chốt giải pháp hoặc mức can thiệp AI.
+
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Đối chiếu rubric/checklist với bài làm thực tế là bước nghẽn chính trước khi nộp, thay vì chưa hoàn thành nội dung chuyên môn hoặc gặp lỗi Git/nền tảng nộp bài. | Value | 5 | 2 | ✅ |
+| 2 | Có thể xác định bộ yêu cầu chính thức đang áp dụng và chuyển các yêu cầu về mục bắt buộc, tên file, cấu trúc thư mục thành tiêu chí đối chiếu rõ ràng. | Feasibility | 5 | 1 | ✅ |
+| 3 | Phần lớn lỗi thiếu mục/sai quy cách trong phạm vi đã chọn có thể phát hiện từ bộ yêu cầu và các file nộp, không cần hệ thống chấm điểm hoặc suy đoán tiêu chí của giảng viên. | Feasibility | 5 | 1 | Kiểm chứng sau |
+| 4 | Quy định môn học cho phép hình thức hỗ trợ kiểm tra dự kiến và việc sử dụng tài liệu/bài làm tuân thủ yêu cầu bảo mật, liêm chính học thuật. | Viability | 5 | 1 | ✅  |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
-
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm dự kiến kiểm chứng trong buổi này: Đối chiếu rubric/checklist với bài làm thực tế là bước nghẽn chính trước khi nộp, thay vì chưa hoàn thành nội dung chuyên môn hoặc gặp lỗi Git/nền tảng nộp bài.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: Phỏng vấn
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Sinh viên làm lab kỹ thuật |
+| Câu nói đáng nhớ nhất (nguyên văn) | Tôi đã đọc hết hướng dẫn, nhưng lúc kiểm tra vẫn không chắc mỗi yêu cầu đang nằm ở file nào. |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi kiểm tra bài trước hạn nộp, phát hiện thiếu báo cáo PDF và phải bổ sung. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tự lập checklist Markdown, ghi đường dẫn file cạnh từng yêu cầu. |
+| Mất bao lâu, bao lần? | 24 phút cho một lần nộp: gom yêu cầu 6 phút, đối chiếu 12 phút, bổ sung và kiểm tra cuối 6 phút. |
+| Insight / opportunity rút ra | Khó nối từng yêu cầu với file tương ứng. Với bài quen thuộc và checklist tập trung, việc kiểm tra có thể chỉ mất 5 phút. |
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | Sinh viên quen làm lab Python, có checklist và script |
+| Câu nói đáng nhớ nhất (nguyên văn) | “Kiểm tra tên file chỉ vài phút; cái làm mình trễ là notebook vẫn lỗi khi chạy lại từ đầu.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | File nộp đúng quy cách nhưng notebook gặp lỗi xử lý dữ liệu khi chạy lại. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Dùng checklist từ lúc nhận đề, template thư mục và script kiểm tra file; chạy lại notebook trước khi nộp. |
+| Mất bao lâu, bao lần? | Một lần nộp: kiểm tra file/checklist 4 phút, chạy notebook 8 phút, sửa lỗi kỹ thuật 25 phút. |
+| Insight / opportunity rút ra | Checklist và script đã đủ cho phần hình thức; bottleneck nằm ở lỗi chuyên môn, không phải đối chiếu quy cách. |
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | Sinh viên tổng hợp và nộp báo cáo lab nhóm |
+| Câu nói đáng nhớ nhất (nguyên văn) | “Tên file thì mình kiểm tra được, nhưng rubric yêu cầu ‘phân tích kết quả’ nên mình không chắc bảng số liệu và hai đoạn nhận xét đã đủ chưa.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Nhóm đủ file nhưng thiếu phần so sánh baseline được yêu cầu bổ sung qua tin nhắn. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đối chiếu rubric và thông báo, liên kết checklist với đoạn báo cáo; hỏi trợ giảng khi tiêu chí chưa rõ. |
+| Mất bao lâu, bao lần? | 31 phút thao tác cho một lần nộp; chờ trợ giảng trả lời thêm 20 phút, ghi riêng. |
+| Insight / opportunity rút ra | Đủ file chưa có nghĩa nội dung đáp ứng rubric. Tiêu chí mơ hồ cần xác nhận với giảng viên; rubric thống nhất và ví dụ đạt có thể đã đủ. |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Phỏng vấn | 3 | Khó đối chiếu từng yêu cầu với đúng file hoặc đoạn nội dung, dễ bỏ sót báo cáo bắt buộc; yêu cầu phân tán giữa rubric và tin nhắn khiến phải rà nhiều nguồn; đủ file và đúng tên chưa bảo đảm đủ mục nội dung. | Checklist và script có thể đã đủ với bài quen thuộc.|
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+**Nhóm đã sửa problem thế nào sau kiểm chứng:**  Thu hẹp phạm vi vào việc phát hiện thiếu mục bắt buộc và sai quy cách nộp bài, thay vì đánh giá toàn bộ chất lượng bài làm. Ưu tiên thử checklist và script đơn giản trước khi cân nhắc AI để giảm chi phí và dễ áp dụng.
+
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Notion/Giấy — checklist đối chiếu thủ công (No AI) | [Notion: Writing & editing basics](https://www.notion.com/help/writing-and-editing-basics) | Gom yêu cầu từ README/rubric thành checklist; người nộp tự đối chiếu file và mục báo cáo trước khi nộp. | Notion có checkbox, bảng và liên kết. Đề xuất áp dụng: mỗi yêu cầu gắn với đường dẫn file/đoạn báo cáo; bản giấy cũng dùng được cho checklist thủ công. | Người dùng vẫn phải cập nhật yêu cầu và tự kiểm tra; tick đủ không chứng minh nội dung đạt rubric. Đây là giới hạn của cách áp dụng đề xuất, chưa đo trên bài thật. | Thử checklist tập trung trước; đo thời gian và lỗi bỏ sót để biết có cần tự động hóa hay không. |
+| Linter Script — script kiểm tra quy cách qua pre-commit (Rule) | [pre-commit: tài liệu chính thức](https://pre-commit.com/#repository-local-hooks) | Đề xuất viết script kiểm tra file bắt buộc, tên MSSV_HoTen và cấu trúc thư mục; chạy trước commit hoặc chạy thủ công trên toàn bộ file. | pre-commit hỗ trợ hook cục bộ và chạy kiểm tra tự động khi commit; quy tắc cố định có thể tái sử dụng. | Không có sẵn bộ kiểm tra rubric của lớp: nhóm phải viết và cập nhật script. Linter định dạng không tự xác nhận file bắt buộc hoặc chất lượng nội dung; kiểm tra thiếu file cần xét toàn bộ cây thư mục. | Tách điều kiện đúng/sai rõ sang Rule; chỉ báo lỗi theo quy định đã xác nhận, không coi script chạy đạt là bài chắc chắn đủ điểm. |
 
 ---
 
