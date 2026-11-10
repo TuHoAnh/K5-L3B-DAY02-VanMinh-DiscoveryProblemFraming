@@ -5,33 +5,29 @@
 ## Thông tin nhóm
 
 - Tên nhóm: Văn Minh
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Candidate problem nhóm chọn (1 câu): Khi chuẩn bị nộp bài lab môn học, tôi muốn đối chiếu nhanh bài làm và cấu trúc thư mục của mình với toàn bộ yêu cầu rubric/checklist, để đảm bảo không bị trừ điểm oan do thiếu mục hoặc sai quy cách nộp bài.
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet
 
 ## Thành viên
 
-| STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
-| --: | --------- | ---- | ------------------ | ---------------- |
-|   1 |           |      |                    |                  |
-|   2 |           |      |                    |                  |
-|   3 |           |      |                    |                  |
-|   4 |           |      |                    |                  |
-
-Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
-
-Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối thời gian, ghi chép, người phản biện chính, phụ trách kiểm chứng (phỏng vấn/survey), phụ trách research, vẽ quy trình, viết Problem Statement.
+| STT | Họ và tên        | MSSV        | Vai trò trong nhóm                                                        | Tài khoản GitHub |
+| --: | ---------------- | ----------- | ------------------------------------------------------------------------- | ---------------- |
+|   1 | Hồ Anh Tú        | 2A202603811 | Nhóm trưởng, điều phối chung, phụ trách CP3, thuyết trình demo            | TuHoAnh          |
+|   2 | Nguyễn Nam Khánh | 2A202603871 | Phụ trách kiểm chứng & research (CP4), phản biện chính, thuyết trình demo | BSFactor         |
+|   3 | Vũ Văn Bình      | 2A202603831 | Phụ trách quy trình & Problem Statement v0 (CP5), phản biện               | hnib1908         |
+|   4 | Lê Thanh Tùng    | 2A202603819 | Phụ trách mức can thiệp AI, eval & quyết định (CP6), phản biện            | Griin-03         |
 
 ## Phân công theo checkpoint
 
-| Checkpoint                                 | Người chính | Người hỗ trợ | Sản phẩm                                       |
-| ------------------------------------------ | ----------- | ------------ | ---------------------------------------------- |
-| CP3 — Hội tụ nhóm                          |             |              | Cluster, cây OST, bảng chấm điểm               |
-| CP4 — Kiểm chứng                           |             |              | Assumption map, snapshot hoặc survey           |
-| CP4 — Research                             |             |              | Bảng research có link                          |
-| CP5 — Quy trình trước/sau                  |             |              | Quy trình + bảng before/after                  |
-| CP5 — Problem Statement v0                 |             |              | Problem Statement v0                           |
-| CP6 — Mức can thiệp + Problem Statement v1 |             |              | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định                           |             |              | 4 rủi ro + Go/Not Yet/No-Go                    |
+| Checkpoint                                 | Người chính      | Người hỗ trợ                | Sản phẩm                                       |
+| ------------------------------------------ | ---------------- | --------------------------- | ---------------------------------------------- |
+| CP3 — Hội tụ nhóm                          | Hồ Anh Tú        | Cả nhóm (Khánh, Bình, Tùng) | Cluster, cây OST, bảng chấm điểm               |
+| CP4 — Kiểm chứng                           | Nguyễn Nam Khánh | Hồ Anh Tú                   | Assumption map, snapshot hoặc survey           |
+| CP4 — Research                             | Nguyễn Nam Khánh | Lê Thanh Tùng               | Bảng research có link                          |
+| CP5 — Quy trình trước/sau                  | Vũ Văn Bình      |                             | Quy trình + bảng before/after                  |
+| CP5 — Problem Statement v0                 | Vũ Văn Bình      | Nguyễn Nam Khánh            | Problem Statement v0                           |
+| CP6 — Mức can thiệp + Problem Statement v1 | Lê Thanh Tùng    | Vũ Văn Bình                 | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định                           | Lê Thanh Tùng    |                             | 4 rủi ro + Go/Not Yet/No-Go                    |
 
 ## Cá nhân
 
