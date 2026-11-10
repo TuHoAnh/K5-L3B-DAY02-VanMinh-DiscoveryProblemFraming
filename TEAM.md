@@ -106,3 +106,25 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Có tài liệu chuẩn bị để nhóm sử dụng khi thảo luận CP3–CP6. Bảng pitch chung hiện có 3 candidate của tôi ở dòng 7–9.
 - Phần cần làm rõ trong bản nháp cá nhân: kiểm cấu trúc không chứng minh chất lượng; phải đo cả công đọc/sửa cảnh báo và lỗi còn sót trước khi quyết định cần AI.
 - CP7 có bản nháp do AI hỗ trợ; cần tự viết lại theo yêu cầu đề bài, không ghi nhận đây là reflection tự viết đã hoàn tất.
+
+### Nguyễn Nam Khánh-2A202603871
+
+**Phần việc phụ trách:**
+
+- Phụ trách chuẩn bị kiểm chứng và research ở CP4; tham gia pitch, phản biện và thảo luận chọn candidate ở CP3.
+- Hỗ trợ thảo luận quy trình, Problem Statement, mức can thiệp và quyết định của nhóm.
+
+- **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+  - Chuẩn bị 3 Problem Card cá nhân và quy trình nháp; đưa vào bảng pitch chung.
+  - Phản biện bài toán tổng hợp deadline bằng câu hỏi.
+  - Chuẩn bị assumption map cho bài toán đối chiếu rubric/checklist trước khi nộp.
+  - Research checklist Notion/giấy và script qua pre-commit, đối chiếu khả năng xử lý, hạn chế và bài học cho nhóm.
+  - Góp ý thu hẹp phạm vi vào thiếu mục bắt buộc và sai quy cách; ưu tiên cách làm đơn giản, chi phí thấp trước khi cân nhắc AI.
+
+- **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+  - [Báo cáo nhóm](report/team/group_report.md): mục 2.1, candidate #1–#3; mục 3.1–3.3, assumption map, snapshot và research.
+
+- **Điều mình học được từ phần nhóm:**
+  - Cần xác định actor và bottleneck cụ thể, đồng thời so sánh với giải pháp có sẵn để tránh làm phức tạp vấn đề.
+  - Phản biện giúp làm rõ giá trị của giải pháp; script hoặc checklist có thể đã đủ cho các quy tắc cố định.
+  - Cần đo cả thời gian và lỗi còn sót, phân biệt giả định với bằng chứng thực tế; quyết định Not Yet giúp nhóm xác định điều phải kiểm chứng trước khi triển khai.
